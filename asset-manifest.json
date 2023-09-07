@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ad0a27c.css",
+    "main.js": "/static/js/main.b8f5b69d.js",
+    "static/js/787.30ca936e.chunk.js": "/static/js/787.30ca936e.chunk.js",
+    "static/media/ncrOffice2.jpg": "/static/media/ncrOffice2.2aaa595958e3a3493fd0.jpg",
+    "static/media/ncrOffice1.jpg": "/static/media/ncrOffice1.f49ad0b2e7831a77f968.jpg",
+    "static/media/pdf.worker.min.js": "/static/media/pdf.worker.min.272e955dbd7f5ae06a56.js",
+    "static/media/IMG_0964.JPG": "/static/media/IMG_0964.aaeb656b790d98277375.JPG",
+    "static/media/s23NCRCoops.jpg": "/static/media/s23NCRCoops.e8e97c59157464f36434.jpg",
+    "static/media/randomArtGenerator_1.png": "/static/media/randomArtGenerator_1.b6703dd0ef774c0766c9.png",
+    "static/media/sinclairMolViewer_1.png": "/static/media/sinclairMolViewer_1.fbdcfea1fd7fbab334aa.png",
+    "static/media/linkedinLogo.png": "/static/media/linkedinLogo.b1bebb391a157454d569.png",
+    "static/media/womenUsingNCRATM.png": "/static/media/womenUsingNCRATM.5d769016a6eabb3a7442.png",
+    "static/media/classic2DGames_1.png": "/static/media/classic2DGames_1.98b9edb60281c6062874.png",
+    "static/media/githubLogo.png": "/static/media/githubLogo.67869433f8d09e41054a.png",
+    "static/media/isaiahSinclairResume.pdf": "/static/media/isaiahSinclairResume.f172ab03364c08308ddb.pdf",
+    "static/media/finTrack_1.png": "/static/media/finTrack_1.fc5cac6c464032169109.png",
+    "static/media/emailLogo.png": "/static/media/emailLogo.647bb52528e6a0ce522c.png",
+    "index.html": "/index.html",
+    "main.7ad0a27c.css.map": "/static/css/main.7ad0a27c.css.map",
+    "main.b8f5b69d.js.map": "/static/js/main.b8f5b69d.js.map",
+    "787.30ca936e.chunk.js.map": "/static/js/787.30ca936e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ad0a27c.css",
+    "static/js/main.b8f5b69d.js"
+  ]
+}
