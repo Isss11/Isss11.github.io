@@ -41,7 +41,7 @@ const WorkTermOne = () => {
 				{/* FIXME - need hackathon image here */}
 				<img src={s23NCRCoops} className="singular-image mx-auto d-block my-2" alt="NCR Waterloo Summer 2023 Co-ops"></img>
 				<h3>Working as Full Stack Developer</h3>
-				<em><h6 className="goals-area p-1 rounded">Skills: React, JavaScript, NCR's API Bulding Tool, Docker, Kubernetes, Jest, Software Architecture, Documentation</h6></em>
+				<em><h6 className="goals-area p-1 rounded">Skills: React, JavaScript, NCR's API Building Tool, Docker, Kubernetes, Jest, Software Architecture, Documentation</h6></em>
 
 				<p>
 					Midway through the S23 semester, I moved to a UI architecture team to work as a Full Stack Developer. Each task that I received in this position involved high-level decisions about how applications were structured, as opposed to implementing very specific features.

@@ -7,6 +7,7 @@
 > `npm install js-yaml -g`
 > `npm install --save react-pdf`
 > `npm install react-dropdown  --save`
+> `npm install gh-pages --save-dev`
 
 ## Credits
 
