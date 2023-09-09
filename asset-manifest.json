@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ad0a27c.css",
-    "main.js": "/static/js/main.de38ec2f.js",
+    "main.js": "/static/js/main.1c31b861.js",
     "static/js/787.30ca936e.chunk.js": "/static/js/787.30ca936e.chunk.js",
     "static/media/ncrOffice2.jpg": "/static/media/ncrOffice2.2aaa595958e3a3493fd0.jpg",
     "static/media/ncrOffice1.jpg": "/static/media/ncrOffice1.f49ad0b2e7831a77f968.jpg",
@@ -19,11 +19,11 @@
     "static/media/emailLogo.png": "/static/media/emailLogo.647bb52528e6a0ce522c.png",
     "index.html": "/index.html",
     "main.7ad0a27c.css.map": "/static/css/main.7ad0a27c.css.map",
-    "main.de38ec2f.js.map": "/static/js/main.de38ec2f.js.map",
+    "main.1c31b861.js.map": "/static/js/main.1c31b861.js.map",
     "787.30ca936e.chunk.js.map": "/static/js/787.30ca936e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ad0a27c.css",
-    "static/js/main.de38ec2f.js"
+    "static/js/main.1c31b861.js"
   ]
 }
