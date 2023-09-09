@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f11371ba.css",
-    "main.js": "/static/js/main.e25036f4.js",
+    "main.js": "/static/js/main.3e860a5e.js",
+    "static/js/219.cd87673a.chunk.js": "/static/js/219.cd87673a.chunk.js",
     "static/js/787.30ca936e.chunk.js": "/static/js/787.30ca936e.chunk.js",
     "static/media/ncrOffice2.jpg": "/static/media/ncrOffice2.2aaa595958e3a3493fd0.jpg",
     "static/media/ncrOffice1.jpg": "/static/media/ncrOffice1.f49ad0b2e7831a77f968.jpg",
@@ -18,11 +19,12 @@
     "static/media/emailLogo.png": "/static/media/emailLogo.647bb52528e6a0ce522c.png",
     "index.html": "/index.html",
     "main.f11371ba.css.map": "/static/css/main.f11371ba.css.map",
-    "main.e25036f4.js.map": "/static/js/main.e25036f4.js.map",
+    "main.3e860a5e.js.map": "/static/js/main.3e860a5e.js.map",
+    "219.cd87673a.chunk.js.map": "/static/js/219.cd87673a.chunk.js.map",
     "787.30ca936e.chunk.js.map": "/static/js/787.30ca936e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f11371ba.css",
-    "static/js/main.e25036f4.js"
+    "static/js/main.3e860a5e.js"
   ]
 }
