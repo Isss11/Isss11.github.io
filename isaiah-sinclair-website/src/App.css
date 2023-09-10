@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,16 +44,19 @@
 
 .small-logo {
   max-width: 2%;
+  min-width: 2rem;
   height: auto;
 }
 
 .nav-bar-logo {
   width: 1.5%;
+  min-width: 2rem;
   height: auto;
 }
 
 .footer-logo {
   max-width: 2%;
+  min-width: 2rem;
   height: auto;
 }
 
@@ -63,15 +70,14 @@
 
 .header-link:hover {
   font-weight: bold;
-  font-style: oblique;
 }
 
 .home-header {
   background-color: rgba(3, 75, 15, 0.766);
 }
 
-.goals-area {
-  background-color: rgb(227, 241, 223);
+.resume-viewer {
+  width: 80%;
 }
 
 .singular-image {
