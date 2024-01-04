@@ -6,6 +6,8 @@ import isaiahSinclairNCROffice2 from "../assets/workTermReport2Images/isaiahSinc
 import ncrVoyixLogo from "../assets/workTermReport2Images/ncrVoyixLogo.png"
 import ncrCashRegister from "../assets/workTermReport2Images/ncrFirstCashRegister.png"
 import johnHenryPattersonPortrait from "../assets/workTermReport2Images/johnHenryPattersonPortrait.jpg"
+import ncrVisualHistory from "../assets/workTermReport2Images/ncrVisualHistory.png"
+
 
 const WorkTermTwo = () => {
     return (
@@ -35,6 +37,7 @@ const WorkTermTwo = () => {
                     <p>
                         Over the centuries NCR Voyix has evolved and transformed as a business in a variety of ways. For example, in 1991 it was acquired by telecom giant AT&T and renamed “AT&T Global Information Solutions”. It was later spun off in 1997 to become a separate company once again, taking back its old name. In September 2022, NCR Corporation announced it would split its digital commerce and ATM businesses into two separate companies. On October 16, 2023, that legal separation was completed. I work for the digital commerce company, now named “NCR Voyix”. The ATM business is named “NCR Atleos”.
                     </p>
+                    <img src={ncrVisualHistory} className="singular-image mx-auto d-block my-2" alt="NCR History Represented with a Graphic"></img>
                 </div>
             </div>
             <div>
@@ -57,7 +60,7 @@ const WorkTermTwo = () => {
                         For my first major task, I implemented a back-end feature that modified a few existing APIs to allow for an override of fees that were charged to customers with certain purchases. I primarily used NCR's API Toolkit to implement this feature. To test my microservice changes, I built docker images and deployed them on clusters using Kubernetes, building on my knowledge of containerization. I enjoyed implementing this feature as it made me more comfortable with certain back-end technologies that I had not spent much time working with this summer. This task also taught me about how interconnected certain APIs can be with each other, as I had to revise my changes a few times to eliminate bugs in other APIs that were caused by my initial implementation.
                     </p>
                     <p>
-                        After merging some back-end code changes, one of the test cleanup jobs started to fail consistently. I spoke to my team lead, and he noticed that a race condition within automated testing was causing it to fail. He advised that I should change certain functions to not use a shared system property variable across the entire code-base and instead use a getter function. I implemented and merged these changes. Within hours, the CI/CD pipeline had a green build, meaning all tests passed! Green builds went from 13 in the previous sprint to 35 in the next one, a 169% increase! My Software Engineering Manager even thanked me and my team lead for our fix. This was my first foray into learning about parallel programming in a real-world scenario.
+                        After merging some back-end code changes, one of the test cleanup jobs started to fail consistently. I spoke to my team lead, and he noticed that a race condition within automated testing was causing it to fail. He advised that I should change certain functions to not use a shared system property variable across the entire code-base and instead use a getter function. I implemented and merged these changes. Within hours, the CI/CD pipeline had a green build, meaning all tests passed! Green builds went from 13 in the previous sprint to 35 in the next one, a 169% increase! My software engineering manager even thanked me and my team lead for our fix. This was my first foray into learning about parallel programming in a real-world scenario.
                     </p>
                     <p>
                         Later in my co-op term, I shifted to working mainly on front-end tasks as my team received less back-end work. Notably, I implemented a feature to revise the existing front-end implementation to match corresponding changes in the back-end response. I also coded a feature to revise the design of certain dropdowns to group accounts by specified characteristics. My experience working with React at NCR Voyix has solidified my knowledge of front-end development.
