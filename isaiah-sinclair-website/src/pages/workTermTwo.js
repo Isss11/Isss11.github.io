@@ -3,7 +3,7 @@ import '../WorkTermOne.css'
 import f23NCRCoops from "../assets/workTermReport2Images/f23NCRCoops.jpg"
 import isaiahSinclairNCROffice1 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_1.jpg"
 import isaiahSinclairNCROffice2 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_2.jpg"
-import ncrVoyixLogo from "../assets/workTermReport2Images/ncrVoyixLogo.png"
+import ncrVoyixLogo from "../assets/workTermReport2Images/ncrVoyixLogo.jpg"
 import ncrCashRegister from "../assets/workTermReport2Images/ncrFirstCashRegister.png"
 import johnHenryPattersonPortrait from "../assets/workTermReport2Images/johnHenryPattersonPortrait.jpg"
 import ncrVisualHistory from "../assets/workTermReport2Images/ncrVisualHistory.png"
@@ -20,7 +20,7 @@ const WorkTermTwo = () => {
                 specifically, what I've learned and what I will improve on in the future to become a better software developer.
             </div>
             <div>
-                <img src={ncrVoyixLogo} className="mx-auto d-block my-2 dual-images" alt="NCR Voyix Logo"></img>
+                <img src={ncrVoyixLogo} className="mx-auto d-block my-2 singular-image" alt="NCR Voyix Logo"></img>
                 <h2>About NCR Voyix</h2>
                 <p>
                     NCR Voyix is a technology company that focuses on developing software for a variety of financial services. As of 2023, it is the largest provider of point-of-sale software in the world. It currently operates in 35 different countries, employing over 15,000 employees. It sells a variety of products, ranging from bank teller applications to self-checkout machines. NCR Voyix leverages technological solutions to make point-of-sale experiences better for customers and more efficient for businesses.
