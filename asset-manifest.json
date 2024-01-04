@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.221c491c.css",
-    "main.js": "/static/js/main.5b91a120.js",
+    "main.js": "/static/js/main.843e7ef0.js",
     "static/js/787.30ca936e.chunk.js": "/static/js/787.30ca936e.chunk.js",
     "static/media/ncrOffice2.jpg": "/static/media/ncrOffice2.2aaa595958e3a3493fd0.jpg",
     "static/media/ncrOffice1.jpg": "/static/media/ncrOffice1.f49ad0b2e7831a77f968.jpg",
@@ -20,16 +20,16 @@
     "static/media/isaiahSinclairResume.pdf": "/static/media/isaiahSinclairResume.1d72e87b66e47d259abf.pdf",
     "static/media/ncrVisualHistory.png": "/static/media/ncrVisualHistory.37696870e23ab01bc54a.png",
     "static/media/finTrack_1.png": "/static/media/finTrack_1.fc5cac6c464032169109.png",
-    "static/media/ncrVoyixLogo.png": "/static/media/ncrVoyixLogo.76b2ec89540648a54c74.png",
+    "static/media/ncrVoyixLogo.jpg": "/static/media/ncrVoyixLogo.55fa59c60e1f97cb3a95.jpg",
     "static/media/johnHenryPattersonPortrait.jpg": "/static/media/johnHenryPattersonPortrait.d093c7ec3ab47ecc7589.jpg",
     "static/media/emailLogo.png": "/static/media/emailLogo.647bb52528e6a0ce522c.png",
     "index.html": "/index.html",
     "main.221c491c.css.map": "/static/css/main.221c491c.css.map",
-    "main.5b91a120.js.map": "/static/js/main.5b91a120.js.map",
+    "main.843e7ef0.js.map": "/static/js/main.843e7ef0.js.map",
     "787.30ca936e.chunk.js.map": "/static/js/787.30ca936e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.221c491c.css",
-    "static/js/main.5b91a120.js"
+    "static/js/main.843e7ef0.js"
   ]
 }
