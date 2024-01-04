@@ -5,7 +5,7 @@ import 'react-pdf/dist/Page/TextLayer.css';
 
 const Resume = () => {
 	return (
-		<div >
+		<div>
 			<iframe src={resume} width={"100%"} height={"800rem"} title="Isaiah's Resume"></iframe>
 		</div>
 	);

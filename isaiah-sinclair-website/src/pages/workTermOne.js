@@ -2,7 +2,7 @@ import React from "react";
 import ncrOffice1 from "../assets/workTermReport1Images/ncrOffice1.jpg"
 import ncrOffice2 from "../assets/workTermReport1Images/ncrOffice2.jpg"
 import s23NCRCoops from "../assets/workTermReport1Images/s23NCRCoops.jpg"
-import womenUsingNCRATM from "../assets/workTermReport1Images/womenUsingNCRATM.png" // MIGHT HAVE ISSUES WITH PATH OR PNG ON THIS
+import womenUsingNCRATM from "../assets/workTermReport1Images/womenUsingNCRATM.png"
 import '../WorkTermOne.css'
 
 const WorkTermOne = () => {
@@ -148,9 +148,7 @@ const WorkTermOne = () => {
 				</p>
 			</div>
 			<img src={ncrOffice2} className="singular-image mx-auto d-block my-2" alt="NCR Waterloo Office From a Distance"></img>
-
-
-		</div >
+		</div>
 	);
 };
 

@@ -6,6 +6,7 @@ import Home from './pages/index';
 import FeaturedProjects from './pages/featuredProjects';
 import Resume from './pages/resume';
 import WorkTermOne from './pages/workTermOne';
+import WorkTermTwo from './pages/workTermTwo';
 import StandardFooter from './components/StandardFooter';
 
 function App() {
@@ -14,11 +15,13 @@ function App() {
 		<HashRouter>
 			<Header></Header>
 			<Routes>
+				{/* Empty path should map to initial search of isaiahsinclair.ca */}
+				<Route exact path='' element={<Home />} />
 				<Route exact path='/' element={<Home />} />
 				<Route path='/featuredProjects' element={<FeaturedProjects />} />
 				<Route path='/resume' element={<Resume />} />
-				{/* DO NOT CHANGE LINK for the S23 work term. */}
 				<Route path='/co-op/s23WorkTerm' element={<WorkTermOne />} />
+				<Route path='/co-op/f23WorkTerm' element={<WorkTermTwo />} />
 			</Routes>
 			<StandardFooter></StandardFooter>
 		</HashRouter>

@@ -97,8 +97,12 @@
 }
 
 .dual-images {
-  max-width: 50%;
+  max-width: 35%;
   height: auto;
+}
+
+.small-image {
+  width: 15%;
 }
 
 @keyframes App-logo-spin {
