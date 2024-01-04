@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd81bc65.css",
-    "main.js": "/static/js/main.52b56417.js",
+    "main.css": "/static/css/main.221c491c.css",
+    "main.js": "/static/js/main.3b63a44d.js",
     "static/js/787.30ca936e.chunk.js": "/static/js/787.30ca936e.chunk.js",
     "static/media/ncrOffice2.jpg": "/static/media/ncrOffice2.2aaa595958e3a3493fd0.jpg",
     "static/media/ncrOffice1.jpg": "/static/media/ncrOffice1.f49ad0b2e7831a77f968.jpg",
-    "static/media/IMG_0964.JPG": "/static/media/IMG_0964.aaeb656b790d98277375.JPG",
+    "static/media/ncrFirstCashRegister.png": "/static/media/ncrFirstCashRegister.63173a5e841bafd959a3.png",
+    "static/media/hamiltonmarathonphoto.jpg": "/static/media/hamiltonmarathonphoto.ec1c33b0bcab02f8a531.jpg",
     "static/media/s23NCRCoops.jpg": "/static/media/s23NCRCoops.e8e97c59157464f36434.jpg",
     "static/media/randomArtGenerator_1.png": "/static/media/randomArtGenerator_1.b6703dd0ef774c0766c9.png",
+    "static/media/f23NCRCoops.jpg": "/static/media/f23NCRCoops.123544e4aa295faf858a.jpg",
+    "static/media/isaiahSinclairNCRSign_2.jpg": "/static/media/isaiahSinclairNCRSign_2.452f39d8ec60afcef544.jpg",
     "static/media/sinclairMolViewer_1.png": "/static/media/sinclairMolViewer_1.fbdcfea1fd7fbab334aa.png",
     "static/media/linkedinLogo.png": "/static/media/linkedinLogo.b1bebb391a157454d569.png",
+    "static/media/isaiahSinclairNCRSign_1.jpg": "/static/media/isaiahSinclairNCRSign_1.5e33c7f01f9b4193ac42.jpg",
     "static/media/womenUsingNCRATM.png": "/static/media/womenUsingNCRATM.5d769016a6eabb3a7442.png",
     "static/media/classic2DGames_1.png": "/static/media/classic2DGames_1.98b9edb60281c6062874.png",
     "static/media/githubLogo.png": "/static/media/githubLogo.67869433f8d09e41054a.png",
-    "static/media/isaiahSinclairResume.pdf": "/static/media/isaiahSinclairResume.f172ab03364c08308ddb.pdf",
+    "static/media/isaiahSinclairResume.pdf": "/static/media/isaiahSinclairResume.1d72e87b66e47d259abf.pdf",
     "static/media/finTrack_1.png": "/static/media/finTrack_1.fc5cac6c464032169109.png",
+    "static/media/ncrVoyixLogo.png": "/static/media/ncrVoyixLogo.76b2ec89540648a54c74.png",
+    "static/media/johnHenryPattersonPortrait.jpg": "/static/media/johnHenryPattersonPortrait.d093c7ec3ab47ecc7589.jpg",
     "static/media/emailLogo.png": "/static/media/emailLogo.647bb52528e6a0ce522c.png",
     "index.html": "/index.html",
-    "main.dd81bc65.css.map": "/static/css/main.dd81bc65.css.map",
-    "main.52b56417.js.map": "/static/js/main.52b56417.js.map",
+    "main.221c491c.css.map": "/static/css/main.221c491c.css.map",
+    "main.3b63a44d.js.map": "/static/js/main.3b63a44d.js.map",
     "787.30ca936e.chunk.js.map": "/static/js/787.30ca936e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd81bc65.css",
-    "static/js/main.52b56417.js"
+    "static/css/main.221c491c.css",
+    "static/js/main.3b63a44d.js"
   ]
 }
