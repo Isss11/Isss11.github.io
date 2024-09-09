@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.221c491c.css",
-    "main.js": "/static/js/main.68a32bf0.js",
+    "main.css": "/static/css/main.578485f9.css",
+    "main.js": "/static/js/main.e338928b.js",
     "static/js/787.30ca936e.chunk.js": "/static/js/787.30ca936e.chunk.js",
     "static/media/ncrOffice2.jpg": "/static/media/ncrOffice2.2aaa595958e3a3493fd0.jpg",
     "static/media/ncrOffice1.jpg": "/static/media/ncrOffice1.f49ad0b2e7831a77f968.jpg",
     "static/media/ncrFirstCashRegister.png": "/static/media/ncrFirstCashRegister.63173a5e841bafd959a3.png",
     "static/media/hamiltonmarathonphoto.jpg": "/static/media/hamiltonmarathonphoto.ec1c33b0bcab02f8a531.jpg",
+    "static/media/newOffice.jpg": "/static/media/newOffice.ce212ff2ca2f2d4d9c25.jpg",
+    "static/media/inFrontOfEcoTankDispenserCropped.jpg": "/static/media/inFrontOfEcoTankDispenserCropped.9a1ae95abac36dea055b.jpg",
     "static/media/s23NCRCoops.jpg": "/static/media/s23NCRCoops.e8e97c59157464f36434.jpg",
+    "static/media/ecraHome.png": "/static/media/ecraHome.a5690569fbdbce887b2a.png",
     "static/media/f23NCRCoops.jpg": "/static/media/f23NCRCoops.123544e4aa295faf858a.jpg",
     "static/media/isaiahSinclairNCRSign_2.jpg": "/static/media/isaiahSinclairNCRSign_2.452f39d8ec60afcef544.jpg",
     "static/media/linkedinLogo.png": "/static/media/linkedinLogo.b1bebb391a157454d569.png",
@@ -16,16 +19,20 @@
     "static/media/githubLogo.png": "/static/media/githubLogo.67869433f8d09e41054a.png",
     "static/media/isaiahSinclairResume.pdf": "/static/media/isaiahSinclairResume.fd72f0d67ec3e6c3dfb8.pdf",
     "static/media/ncrVisualHistory.png": "/static/media/ncrVisualHistory.37696870e23ab01bc54a.png",
+    "static/media/driverLogs.png": "/static/media/driverLogs.85ae6eeb83c68318751a.png",
+    "static/media/rolesModal.png": "/static/media/rolesModal.a3a498b83f768b7b1f8b.png",
+    "static/media/rolesUserManagement.png": "/static/media/rolesUserManagement.81461cacc4c499af3d8c.png",
+    "static/media/ecoTankLogo.jpg": "/static/media/ecoTankLogo.bf9066d92ef92d46cba5.jpg",
     "static/media/ncrVoyixLogo.jpg": "/static/media/ncrVoyixLogo.55fa59c60e1f97cb3a95.jpg",
     "static/media/johnHenryPattersonPortrait.jpg": "/static/media/johnHenryPattersonPortrait.d093c7ec3ab47ecc7589.jpg",
     "static/media/emailLogo.png": "/static/media/emailLogo.647bb52528e6a0ce522c.png",
     "index.html": "/index.html",
-    "main.221c491c.css.map": "/static/css/main.221c491c.css.map",
-    "main.68a32bf0.js.map": "/static/js/main.68a32bf0.js.map",
+    "main.578485f9.css.map": "/static/css/main.578485f9.css.map",
+    "main.e338928b.js.map": "/static/js/main.e338928b.js.map",
     "787.30ca936e.chunk.js.map": "/static/js/787.30ca936e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.221c491c.css",
-    "static/js/main.68a32bf0.js"
+    "static/css/main.578485f9.css",
+    "static/js/main.e338928b.js"
   ]
 }
