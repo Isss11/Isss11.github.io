@@ -1,12 +1,9 @@
 import React from "react";
-import "../WorkTermOne.css";
+import "../work-term.css";
 import f23NCRCoops from "../assets/workTermReport2Images/f23NCRCoops.jpg";
 import isaiahSinclairNCROffice1 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_1.jpg";
 import isaiahSinclairNCROffice2 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_2.jpg";
-import ncrVoyixLogo from "../assets/workTermReport2Images/ncrVoyixLogo.jpg";
-import ncrCashRegister from "../assets/workTermReport2Images/ncrFirstCashRegister.png";
-import johnHenryPattersonPortrait from "../assets/workTermReport2Images/johnHenryPattersonPortrait.jpg";
-import ncrVisualHistory from "../assets/workTermReport2Images/ncrVisualHistory.png";
+import ncrVoyixLogo from "../assets/workTermReport3Images/ecoTankLogo.jpg";
 
 const WorkTermThree = () => {
   return (
@@ -17,14 +14,11 @@ const WorkTermThree = () => {
         alt="Isaiah in Front of the NCR Voyix Waterloo Office"
       />
       <div>
-        This May, I began working as a Software Developer Intern at NCR Voyix.
-        It has been a great experience, but my time here has reached its finale.
-        I've worked across two different teams, developed code for back-end and
-        front-end features, and learned a lot about software development. This
-        semester, I worked on a back-end-focused team as a Full Stack Developer.
-        In this article, I will reflect on my experience in this role over the
-        past 4 months: specifically, what I've learned and what I will improve
-        on in the future to become a better software developer.
+        This May, I began working as a Software Developer Co-op at EcoTank
+        Canada, excited to help reduce plastic waste one jug at a time. I will
+        reflect on my experience over the past 4 months: specifically, what I’ve
+        worked on, what I’ve learned, and what I will improve on in the future
+        to become a better software developer.
       </div>
       <div>
         <img
@@ -32,149 +26,131 @@ const WorkTermThree = () => {
           className="mx-auto d-block my-2 singular-image"
           alt="NCR Voyix Logo"
         />
-        <h2>About NCR Voyix</h2>
+        <h2>About EcoTank Canada</h2>
         <p>
-          NCR Voyix is a technology company that focuses on developing software
-          for a variety of financial services. As of 2023, it is the largest
-          provider of point-of-sale software in the world. It currently operates
-          in 35 different countries, employing over 15,000 employees. It sells a
-          variety of products, ranging from bank teller applications to
-          self-checkout machines. NCR Voyix leverages technological solutions to
-          make point-of-sale experiences better for customers and more efficient
-          for businesses.
+          EcoTank Canada is a windshield washer refill solution company founded
+          in Orangeville in 2020. The EcoTank is a windshield washer fluid
+          dispenser, that allows users to refill their windshield washer tank
+          just like a gas pump. This eliminates the need to buy a single-use
+          plastic jug, helping to reduce plastic waste one jug at a time.{" "}
         </p>
-        <div className="mx-2">
-          <h3>NCR Voyix History</h3>
-          <p>
-            In 1884, John H. Patterson became the majority owner of National
-            Manufacturing Company based in Dayton, Ohio. He renamed it “National
-            Cash Register Company,” which created the first mechanical cash
-            register. NCR continued to thrive over the coming decades through a
-            culture of innovation, inventing self-checkout machines and magnetic
-            card strips.
-          </p>
-          <div className="d-flex align-items-center justify-content-center">
-            <img
-              src={johnHenryPattersonPortrait}
-              className="mx-auto my-2 dual-images"
-              alt="John Henry Patterson"
-            />
-            <img
-              src={ncrCashRegister}
-              className="mx-auto my-2 dual-images"
-              alt="NCR Old Cash Register"
-            />
-          </div>
-          <p>
-            Over the centuries NCR Voyix has evolved and transformed as a
-            business in a variety of ways. For example, in 1991 it was acquired
-            by telecom giant AT&T and renamed “AT&T Global Information
-            Solutions”. It was later spun off in 1997 to become a separate
-            company once again, taking back its old name. In September 2022, NCR
-            Corporation announced it would split its digital commerce and ATM
-            businesses into two separate companies. On October 16, 2023, that
-            legal separation was completed. I work for the digital commerce
-            company, now named “NCR Voyix”. The ATM business is named “NCR
-            Atleos”.
-          </p>
-          <img
-            src={ncrVisualHistory}
-            className="singular-image mx-auto d-block my-2"
-            alt="NCR History Represented with a Graphic"
-          />
-        </div>
+        <p>
+          A few years ago, Robbie Mair and Jordon Francis wanted to create a
+          business to reduce plastic waste, specifically related to the use of
+          windshield washer fluid jugs. They found a company in Slovakia, named
+          EcoTank, that had already invented a windshield washer dispenser to
+          accomplish this, and agreed to a partnership with them. From this
+          agreement, EcoTank Canada was founded. The two businesses have
+          operated separately with a strategic partnership that allows them to
+          grow symbiotically.
+        </p>
+        <p>
+          While EcoTank Canada already has hundreds of dispensers across Canada
+          at different gas stations, from Couche-Tard to Petro Canada, it is
+          still a relatively small company. I am the first co-op student they’ve
+          ever hired, and there are less than 20 employees who work for the
+          company. They currently have dispensers in Ontario, Quebec, and
+          Atlantic Canada. However, they plan to have dispensers across Canada
+          and in the US in the future.
+        </p>
+        <p>
+          EcoTank Canada is not a software company primarily, however, it has
+          its own custom-built inventory management software, named ECRA. ECRA
+          leverages the benefits of analytics, automation and machine learning
+          to increase business efficiencies. I worked on ECRA this summer to
+          improve and expand its functionality.
+        </p>
       </div>
       <div>
         <h2>My Experience as Software Developer Intern</h2>
-        <p>
-          This semester, I switched from being a Full Stack Developer who worked
-          on a UI architecture team to working as a Full Stack Developer on a
-          feature team. Although both roles work on the same projects, this new
-          role was a sizeable change.
-        </p>
         <div className="mx-2">
-          <h3>
-            Difference Between Working on a Feature Team vs an Architecture Team
-          </h3>
-          <p>
-            To start, I was introduced to some of the core concepts of agile
-            methodology: 2-week sprints, feature grooming and meeting with
-            stakeholders like product owners and UI designers, whom I had not
-            worked with before. Programming tasks were more directed: working on
-            a feature team is more about implementing changes that others
-            request, while as a developer on the architecture team I made more
-            wide-sweeping code changes.
-          </p>
-          <h3>Working as a Full Stack Developer</h3>
           <h6 className="goals-area p-1 rounded">
-            <strong>Technical Skills: </strong>Microservices, API Development,
-            Jest, Yup, Docker, Postman, Kubernetes, Java, JavaScript, React.js,
-            API Toolkit, Parallel Programming, Git
+            <strong>Technical Skills: </strong>JavaScript, Node.js, Vue.js,
+            Firebase, HTML/CSS, BigQuery, GCP, NoSQL, Rest APIs, Role Based
+            Access Control, Git
           </h6>
           <h6 className="goals-area p-1 rounded">
-            <strong>Other Skills: </strong>Agile, Teamwork
+            <strong>Other Skills: </strong>Teamwork, Software Design
           </h6>
           <p>
-            Throughout my entire work term, I worked on NCR Voyix's bank teller
-            project. Given that I was a Full Stack Developer, I've had the
-            privilege of being able to work on both the front end and back end,
-            giving me a better understanding of what it takes to build a
-            full-stack application.
+            Throughout my work term, I worked on EcoTank Canada’s custom-built
+            inventory management system, ECRA. My supervisor, Sean, designed and
+            developed the application himself, so I am the second person to ever
+            work on it. As a result of the small size of our team, I was tasked
+            with implementing many large, impactful features throughout the
+            summer.
           </p>
           <p>
-            For my first major task, I implemented a back-end feature that
-            modified a few existing APIs to allow for an override of fees that
-            were charged to customers with certain purchases. I primarily used
-            NCR's API Toolkit to implement this feature. To test my microservice
-            changes, I built docker images and deployed them on clusters using
-            Kubernetes, building on my knowledge of containerization. I enjoyed
-            implementing this feature as it made me more comfortable with
-            certain back-end technologies that I had not spent much time working
-            with this summer. This task also taught me about how interconnected
-            certain APIs can be with each other, as I had to revise my changes a
-            few times to eliminate bugs in other APIs that were caused by my
-            initial implementation.
+            At the beginning of the term, I worked on UI changes that affected
+            the overall styling of the application. For example, I overhauled
+            the styling of ECRA, creating a theme that auto-compiles SCSS into
+            CSS to style components from an external UI library. This made ECRA
+            visually consistent across the application.
           </p>
           <p>
-            After merging some back-end code changes, one of the test cleanup
-            jobs started to fail consistently. I spoke to my team lead, and he
-            noticed that a race condition within automated testing was causing
-            it to fail. He advised that I should change certain functions to not
-            use a shared system property variable across the entire code-base
-            and instead use a getter function. I implemented and merged these
-            changes. Within hours, the CI/CD pipeline had a green build, meaning
-            all tests passed! Green builds went from 13 in the previous sprint
-            to 35 in the next one, a 169% increase! My software engineering
-            manager even thanked me and my team lead for our fix. This was my
-            first foray into learning about parallel programming in a real-world
-            scenario.
+            As I learned more about the overall structure of the application, my
+            supervisor entrusted me with more complex tasks that improved the
+            functionality of the application. One of these features was a
+            service ticket alert system. EcoTank Canada tracks issues related to
+            their dispensers with service tickets created and stored in ECRA. To
+            ensure that service managers and drivers promptly fix these issues,
+            due dates are assigned to each ticket. I implemented a system to
+            notify managers and drivers of service tickets that were overdue.
+            After implementing this feature, it raised awareness of service
+            tickets that had been overdue for an extended period. As a result,
+            my feature helped to reduce overdue service tickets by 73% within a
+            month. I used Vue.js, JavaScript, and Firebase Functions to build
+            this feature. I did not have previous experience with Vue.js or
+            Firebase before accepting my offer at EcoTank Canada, so I learned
+            these technologies on my own time and improved on them while working
+            on features like these.
           </p>
           <p>
-            Later in my co-op term, I shifted to working mainly on front-end
-            tasks as my team received less back-end work. Notably, I implemented
-            a feature to revise the existing front-end implementation to match
-            corresponding changes in the back-end response. I also coded a
-            feature to revise the design of certain dropdowns to group accounts
-            by specified characteristics. My experience working with React at
-            NCR Voyix has solidified my knowledge of front-end development.
+            Another large feature that I implemented was a role-based access
+            control system. My supervisor entrusted me with researching,
+            designing and implementing a new form of access control that made it
+            easier for administrators to assign read/write access to users for
+            different parts of the application. I read a different articles and
+            documentation about different access control schemes. After this, I
+            implemented a system that allows admins to create roles directly on
+            ECRA, assign read/write permissions to these roles and then assign
+            roles to users seamlessly. I used Vue.js, Firebase, JavaScript and
+            Firestore Rules to implement this feature. I also took advantage of
+            my coursework in data structures, using sets to assign permissions
+            to users with multiple roles without storing duplicate permissions.
+            This experience taught me a lot about software design, technical
+            research and decision-making. I also learned a lot about product
+            iteration and using feedback from stakeholders to improve the design
+            of the access control system, particularly from my supervisor. This
+            allowed me to practically apply some of the theoretical concepts I
+            had learned in CIS*3750 (System Analysis and Design in
+            Applications), strengthening my knowledge of software engineering
+            principles.
           </p>
           <p>
-            Working as a Full Stack Developer at NCR Voyix has been a great
-            learning experience. My shift from an architectural role last
-            semester to an implementation-focused role has given me a
-            well-rounded perspective on how to devise solutions to technical
-            problems. It has also made me more vigilant about meeting the
-            constraints and requirements of a variety of stakeholders. I will
-            continue to use these lessons in the future for the betterment of my
-            career in software development.
+            For the remainder of the semester, I worked on a variety of
+            different features, big and small. In my last month as a co-op
+            student, I was tasked with implementing an hours-of-service logging
+            system for EcoTank Canada drivers. Like the role-based access
+            control feature, I spent some time researching and designing a
+            solution before beginning development. I used JavaScript and
+            Firebase to integrate ECRA with an external vehicle tracking API
+            webhook. This allows ECRA to obtain a constant stream of information
+            about the status of vehicles. After retrieving data from the
+            webhook, this is stored internally in the table that contains driver
+            logs. To view the logs, I programmed a UI with Vue.js and
+            JavaScript.
           </p>
-          <h2>Company Experience</h2>
           <p>
-            This semester, I continued to be involved in a variety of
-            opportunities offered at NCR Voyix. For example, I helped review
-            resumes and conduct interviews for co-op applicants. I also involved
-            myself in 'company culture' events, being the ice-cream scooper for
-            “Co-op Scoop” networking events at work.
+            Working as a Software Developer at EcoTank Canada has been a great
+            learning experience. I’ve been able to implement wide-scale changes
+            to ECRA, while programming features with technologies that I had no
+            previous experience with. As a result, I have strengthened my
+            problem-solving and software engineering skills. Additionally, I
+            have also learned about the importance of getting feedback from
+            different stakeholders to improve the design of the software I
+            write. I will use these lessons to continue to improve as a software
+            engineer in the future.
           </p>
         </div>
       </div>
@@ -191,113 +167,136 @@ const WorkTermThree = () => {
         </p>
         <div className="mx-2">
           <h5>
-            Learning Goal #1: Become more efficient, getting more work done in
-            less time.
+            Learning Goal #1: I want to learn more about back-end development,
+            specifically using Firebase, Firestore, and BigQuery.
           </h5>
           <p>
-            While a few tasks were delayed due to issues I encountered during
-            development, I have made strides towards this goal. I have
-            prioritized getting 7 hours of sleep each night, which is the amount
-            I need to function and solve problems efficiently. I have continued
-            to mitigate procrastination by using a to-do list to keep track of
-            work I need to get done in the present workday. Also, my stronger
-            background (compared to last semester) in the tools and technologies
-            that I use at work has made it a lot easier to finish work in a
-            shorter timeframe.
+            I shared this goal with my supervisor to indicate my interest in
+            back-end development, and that has helped me achieve this goal. I
+            have gained a lot of experience in Firebase, Firestore, Cloud
+            Functions for Firebase, and even BigQuery. I have used Firebase and
+            Firestore for a wide variety of tasks, from creating an overdue
+            service ticket notification system to implementing a driver logging
+            system using a webhook that was integrated with an external API.
+            Given my interest in pursuing a career in back-end development,
+            these tasks and features have strengthened my experience in this
+            field. As a result, I’m more qualified for positions in back-end
+            development.
           </p>
           <h5>
-            Learning Goal #2: Get involved in back-end development: learn more
-            about Helm, Kubernetes, API Toolkit, Spring Boot and Docker in
-            particular.
+            Learning Goal #2: I want to offer advice on overall software design
+            decisions that help to improve ECRA.
           </h5>
           <p>
-            At the start of the semester, I had a preference to learn more about
-            back-end development. However, since I was a full-stack developer
-            this semester, my work was intermixed with front-end tasks. As such,
-            I have strengthened my understanding of technologies such as
-            Kubernetes, Docker, and NCR's API Toolkit. However, I did not have
-            the time to learn more about other back-end technologies such as
-            Helm and Sprint Boot since I spent a significant portion of the
-            semester focused on front-end development. While I did not get as
-            much experience with back-end development, I've been able to gain a
-            broader view of what it takes to build a full-stack web application.
-            I will look towards future co-op terms and personal projects to
-            learn more about these back-end technologies.
+            My supervisor has given me ample opportunity to give my opinion and
+            advice on the direction of the product, particularly concerning
+            software design. I had many discussions about the design of the
+            role-based access control system I implemented and other features,
+            such as adding multi-tenancy to the application. While our
+            discussions have been productive, we have had respectful debates
+            about the specific coding principles and design decisions. These
+            discussions have pushed me to articulate my opinions clearly while
+            considering perspectives on alternative designs. I have also been
+            practicing my public speaking skills in some extracurriculars this
+            summer, which has helped me express my views confidently and
+            concisely.
           </p>
           <h5>
-            Learning Goal #3: Take advice from more experienced team members to
-            improve my programming and software development skills.
+            Learning Goal #3: Become a more patient and resilient software
+            developer.
           </h5>
           <p>
-            Throughout my co-op term, I have taken advice from both front-end
-            and back-end developers on my team. This has helped me improve my
-            programming skills and ensure that I follow desired coding practices
-            and principles. I have learned a lot from the feedback I've received
-            in code reviews from my co-workers, revising my implementations to
-            ensure better style and functionality. I also reviewed other team
-            members' code changes to understand different ways to solve
-            technical problems. Additionally, I spoke with team members when I
-            encountered issues with my tasks, and they were able to provide with
-            me tips to approach problems I faced.
+            I’ve become a more resilient software developer, as I've learned a
+            wide variety of technologies in a short timeframe. I didn't know
+            anything about Vue.js or Firebase until a few months ago, and now
+            I'm comfortable with both. I’ve done this by reading documentation,
+            searching the web for help, building personal projects with these
+            technologies and getting help from my supervisor when needed for
+            work-related programming. However, my supervisor has indicated that
+            I should be more willing to ask questions when needed, specifically
+            when understanding the design of more complex parts of the
+            application. This would help reduce the amount of time it takes for
+            me to complete a development task. I will keep this in mind as I
+            continue to work at EcoTank part-time, and in future positions in
+            general.
+          </p>
+          <h5>Learning Goal #4: Speak more confidently to my co-workers.</h5>
+          <p>
+            In comparison to my last internship, I can now speak more
+            confidently than before. I have improved by taking deliberate pauses
+            to gather my thoughts before speaking, as well as participating
+            heavily in a public speaking extracurricular, named “Toastmasters”,
+            over the summer. Toastmasters has had an impact on my public
+            speaking skills, allowing me to try out different speaking
+            techniques in a supportive environment that has constructive
+            criticism and evaluations. The constructive criticism I have
+            received in Toastmasters has helped me refine some of my
+            shortcomings in public speaking, allowing me to speak more clearly
+            to my co-workers at EcoTank Canada. Speaking skills are key to most
+            professions including software development, so I’m proud of the
+            improvements I’ve made in this domain.
           </p>
           <h5>
-            Learning Goal #4: Take the initiative to investigate problems on my
-            own (even if they're not mine) to further my understanding of
-            technologies.
+            Learning Goal #5: Gain a deeper understanding of how businesses
+            work, specifically start-ups such as EcoTank.
           </h5>
           <p>
-            While I'm not afraid to ask questions, I tried to not ask 'too
-            many'. I did this because I want to become a more resilient
-            programmer, specifically with tracing bugs and devising solutions.
-            To do this, I felt I needed to spend an ample amount of time trying
-            to solve problems before asking for help. One specific skill that
-            helped me with this was learning how to use a debugger. Previously,
-            I would add print statements to trace issues. Using a debugger made
-            analyzing bugs a lot easier, reducing my need to ask for help from
-            other developers. Additionally, I took the initiative to investigate
-            and resolve issues that were not my own: I frequently fixed
-            programming environment issues our Quality Assurance Engineer
-            encountered when testing application features.
-          </p>
-          <h5>
-            Learning Goal #5: I will take more time to read relevant programming
-            documentation before programming so that I can approach problems
-            more thoughtfully.
-          </h5>
-          <p>
-            Later in my co-op term, I was assigned a technical debt issue where
-            I had to investigate why a container wasn't reconnecting to Kafka,
-            an event streaming platform. Since I had never worked with Kafka, I
-            read documentation about the platform and the concept of event
-            journalling. This preliminary research helped me resolve the issue
-            faster. I've also read other documentation on other
-            libraries/frameworks like React and Jest.
+            My position is not heavily focused on the business operations side
+            of EcoTank Canada, but I did want to pick up some business skills if
+            I ever want to create a business. In my two internships, I have
+            learned different managerial strategies when it comes to managing a
+            smaller company in comparison to a team in a large corporation. In a
+            corporation such as NCR Voyix, engineering managers are less
+            involved in the overall business and sales decisions of the company.
+            As a result, they focus more on improving the productivity of
+            engineering teams and less on over-arching business priorities. At
+            EcoTank Canada, Robbie Mair, the CEO, needed to be focused on a
+            wider variety of priorities since he runs the whole company, not a
+            segment of one. This includes sales, software development, customer
+            satisfaction and quality control of dispensers. Comparing and
+            contrasting the managerial styles needed to run different businesses
+            has broadened my understanding of managerial skills. I also have
+            learned about the importance of applying for different government
+            grants and subsidies, as they can have an enormous impact on a
+            smaller company's ability to expand, given that smaller companies
+            are not as wealthy as large corporations. Additionally, I have
+            learned about the importance of building strong relationships with
+            clients to maintain customer loyalty. While most of these lessons
+            are not necessarily relevant to software development positions, they
+            will be very useful if I ever want to create a business.
           </p>
         </div>
       </div>
       <div>
         <h2>Conclusion</h2>
         <p>
-          In May, I embarked on my journey with NCR Voyix without any
-          professional software development experience. I had programmed
-          projects in school and on my own time, but I was eager to apply my
-          skills in a way that meaningfully affected people. After 8 months,
-          tens of pull requests, and many afternoons debugging, I've
-          accomplished exactly that. Additionally, I've been able to work
-          alongside so many intelligent, positive people. Working at NCR Voyix
-          has been a pleasure.
+          At the start of the summer, I embarked on my journey with EcoTank
+          Canada, reducing plastic waste one jug at a time. Since then, I’ve
+          implemented a variety of major software features, improving their
+          inventory management software while levelling up my software
+          engineering skills. I’ve also learned a lot about what it takes to
+          build a business from the ground up – working here has given me
+          invaluable experience in startups and business. I’m proud of what
+          we’ve achieved over these past few months, and I’m excited to see what
+          the future holds for EcoTank Canada. I will be working there part-time
+          over the Fall 2024 semester, so I will continue to be a part of
+          shaping that future.
         </p>
       </div>
       <div>
         <h2>Acknowledgments</h2>
         <p>
-          I want to thank everyone on my team, Pi, for helping me have another
-          successful co-op term. They were always willing to take time out of
-          their day to help resolve issues l encountered. Specifically, I wanted
-          to thank my Team Lead, Jeewhoon, especially for his patience when
-          mentoring me. I also wanted to thank my Software Engineering Manager,
-          Freddi for providing me with so many unique opportunities throughout
-          my work term at NCR Voyix.
+          I want to thank everyone at EcoTank Canada, for helping me have such a
+          successful co-op term. They’ve all been so kind and welcoming
+          throughout the period that I’ve worked here so far. Specifically, I
+          wanted to thank Sean, my supervisor, for always taking time out of his
+          day to help me with issues that I encountered, being open-minded to
+          suggestions, and being considerate about the difficulties that I faced
+          during the onboarding process. I also wanted to thank Robbie, EcoTank
+          Canada’s CEO, for the praise and respect he had for the software that
+          Sean and I have worked on. Lastly, I want to thank Victoria, for her
+          constant support throughout my work term as well as for entrusting me
+          to be the candidate that EcoTank Canada hired over the summer.
         </p>
       </div>
       <img
