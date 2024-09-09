@@ -21,61 +21,51 @@ const Navbar = () => {
 
   useEffect(
     () => {
-      navigate(workTerm);
+      // Navigates to page and resets work term path
+      if (workTerm) {
+        navigate(workTerm);
+        setWorkTerm("");
+      }
     },
     [workTerm]
   );
 
   return (
-    <nav>
-      <ul>
-        <Link className="header-link p-2 nav-button rounded" to="/resume">
-          Resume
-        </Link>
-        <Link
-          className="header-link p-2 nav-button rounded"
-          to="/co-op/s23WorkTerm"
-        >
-          S23 Work Term
-        </Link>
-        <Link
-          className="header-link p-2 nav-button rounded"
-          to="/co-op/f23WorkTerm"
-        >
-          F23 Work Term
-        </Link>
-        <Dropdown
-          controlClassName="nav-bar-dropdown-control"
-          onChange={e => setWorkTerm(e.value)}
-          value={workTerm}
-          placeholder="Work Term Reports"
-          options={options}
+    <nav className="nav-container">
+      <Link className="header-link p-2 nav-button rounded" to="/resume">
+        Resume
+      </Link>
+      <Dropdown
+        controlClassName="nav-bar-dropdown-control"
+        onChange={e => setWorkTerm(e.value)}
+        value={workTerm}
+        placeholder="Work Term Reports"
+        options={options}
+      />
+      <Link
+        className="header-link p-2 nav-button rounded"
+        to="https://www.linkedin.com/in/isaiahsinclair/"
+      >
+        <img
+          className="nav-bar-logo mx-0.5 my-0"
+          src={linkedinLogo}
+          alt="LinkedIn"
         />
-        <Link
-          className="header-link p-2 nav-button rounded"
-          to="https://www.linkedin.com/in/isaiahsinclair/"
-        >
-          <img
-            className="nav-bar-logo mx-0.5 my-0"
-            src={linkedinLogo}
-            alt="LinkedIn"
-          />
-        </Link>
-        <Link
-          className="header-link p-2 nav-button rounded"
-          to="https://github.com/Isss11"
-        >
-          <img
-            className="nav-bar-logo mx-0.5 my-0"
-            src={githubLogo}
-            alt="GitHub"
-          />
-        </Link>
-        <ButtonMailto
-          label="isincl01@uoguelph.ca"
-          mailto="mailto:isincl01@uoguelph.ca"
+      </Link>
+      <Link
+        className="header-link p-2 nav-button rounded"
+        to="https://github.com/Isss11"
+      >
+        <img
+          className="nav-bar-logo mx-0.5 my-0"
+          src={githubLogo}
+          alt="GitHub"
         />
-      </ul>
+      </Link>
+      <ButtonMailto
+        label="isincl01@uoguelph.ca"
+        mailto="mailto:isincl01@uoguelph.ca"
+      />
     </nav>
   );
 };
