@@ -1,12 +1,31 @@
-import React from "react";
-import { Link } from "react-router-dom";
-// import Dropdown from 'react-dropdown';
+import React, { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
+import "../nav-bar.css";
 import ButtonMailto from "./ButtonMailto";
 import githubLogo from "../assets/githubLogo.png";
 import linkedinLogo from "../assets/linkedinLogo.png";
+import { useState } from "react";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const options = [
+    { label: "S23 (NCR)", value: "/co-op/s23WorkTerm" },
+    { label: "W23 (NCR Voyix)", value: "/co-op/f23WorkTerm" },
+    { label: "S24 (EcoTank Canada)", value: "/co-op/s24WorkTerm" }
+  ];
+
+  const [workTerm, setWorkTerm] = useState("");
+
+  useEffect(
+    () => {
+      navigate(workTerm);
+    },
+    [workTerm]
+  );
+
   return (
     <nav>
       <ul>
@@ -25,6 +44,13 @@ const Navbar = () => {
         >
           F23 Work Term
         </Link>
+        <Dropdown
+          controlClassName="nav-bar-dropdown-control"
+          onChange={e => setWorkTerm(e.value)}
+          value={workTerm}
+          placeholder="Work Term Reports"
+          options={options}
+        />
         <Link
           className="header-link p-2 nav-button rounded"
           to="https://www.linkedin.com/in/isaiahsinclair/"

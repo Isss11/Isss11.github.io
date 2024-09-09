@@ -7,7 +7,7 @@ import Resume from "./pages/resume";
 import WorkTermOne from "./pages/workTermOne";
 import WorkTermTwo from "./pages/workTermTwo";
 import WorkTermThree from "./pages/workTermThree";
-import StandardFooter from "./components/StandardFooter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path="/co-op/f23WorkTerm" element={<WorkTermTwo />} />
         <Route path="/co-op/s24WorkTerm" element={<WorkTermThree />} />
       </Routes>
-      <StandardFooter />
+      <Footer />
     </HashRouter>
   );
 }
