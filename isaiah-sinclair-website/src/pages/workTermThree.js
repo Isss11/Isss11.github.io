@@ -8,6 +8,7 @@ import ecraHome from "../assets/workTermReport3Images/ecraHome.png";
 import rolesModal from "../assets/workTermReport3Images/rolesModal.png";
 import rolesUserManagement from "../assets/workTermReport3Images/rolesUserManagement.png";
 import driverLogs from "../assets/workTermReport3Images/driverLogs.png";
+import YoutubeEmbed from "../components/YouTubeEmbed";
 
 const WorkTermThree = () => {
   return (
@@ -44,6 +45,9 @@ const WorkTermThree = () => {
           just like a gas pump. This eliminates the need to buy a single-use
           plastic jug, helping to reduce plastic waste one jug at a time.{" "}
         </p>
+        <div className="embedded-video">
+          <YoutubeEmbed embedId="KTgeqr23pZQ" />
+        </div>
         <p>
           A few years ago, Robbie Mair and Jordon Francis wanted to create a
           business to reduce plastic waste, specifically related to the use of
@@ -60,15 +64,14 @@ const WorkTermThree = () => {
           still a relatively small company. I am the first co-op student they've
           ever hired, and there are less than 20 employees who work for the
           company. They currently have dispensers in Ontario, Quebec, and
-          Atlantic Canada. However, they plan to have dispensers across Canada
-          and in the US in the future.
+          Atlantic Canada. They plan to have dispensers across Canada and in the
+          US in the future.
         </p>
         <p>
           EcoTank Canada is not a software company primarily, however, it has
           its own custom-built inventory management software, named ECRA. ECRA
           leverages the benefits of analytics, automation and machine learning
-          to increase business efficiencies. I worked on ECRA this summer to
-          improve and expand its functionality.
+          to increase business efficiencies.
         </p>
       </div>
       <div>
@@ -115,7 +118,7 @@ const WorkTermThree = () => {
             </figcaption>
           </figure>
           <p>
-            As I learned more about the overall structure of the application, my
+            As I learned more about the overall code structure of ECRA, my
             supervisor entrusted me with more complex tasks that improved the
             functionality of the application. One of these features was a
             service ticket alert system. EcoTank Canada tracks issues related to
@@ -134,21 +137,21 @@ const WorkTermThree = () => {
           </p>
           <p>
             Another large feature that I implemented was a role-based access
-            control system. My supervisor entrusted me with researching,
-            designing and implementing a new form of access control that made it
-            easier for administrators to assign read/write access to users for
-            different parts of the application. I read a different articles and
-            documentation about different access control schemes. After this, I
-            implemented a system that allows admins to create roles directly on
-            ECRA, assign read/write permissions to these roles and then assign
-            roles to users seamlessly. I used Vue.js, Firebase, JavaScript and
-            Firestore Rules to implement this feature. I also took advantage of
-            my coursework in data structures, using sets to assign permissions
-            to users with multiple roles without storing duplicate permissions.
-            This experience taught me a lot about software design, technical
-            research and decision-making. I also learned a lot about product
-            iteration and using feedback from stakeholders to improve the design
-            of the access control system, particularly from my supervisor. This
+            control system. I researched, designed and implemented a new form of
+            access control that made it easier for administrators to assign
+            read/write access to users for different parts of the application. I
+            read a variety of articles and documentation about different access
+            control schemes. After this, I implemented a system that allows
+            admins to create roles directly on ECRA, assign read/write
+            permissions to these roles and then assign roles to users
+            seamlessly. I used Vue.js, Firebase, JavaScript and Firestore Rules
+            to implement this feature. I also took advantage of my coursework in
+            data structures, using sets to assign permissions to users with
+            multiple roles without storing duplicate permissions. This
+            experience taught me a lot about software design, technical research
+            and decision-making. I also learned a lot about product iteration
+            and using feedback from stakeholders (particularly from my
+            supervisor) to improve the design of the access control system. This
             allowed me to practically apply some of the theoretical concepts I
             had learned in CIS*3750 (System Analysis and Design in
             Applications), strengthening my knowledge of software engineering
@@ -177,9 +180,9 @@ const WorkTermThree = () => {
             For the remainder of the semester, I worked on a variety of
             different features, big and small. In my last month as a co-op
             student, I was tasked with implementing an hours-of-service logging
-            system for EcoTank Canada drivers. Like the role-based access
-            control feature, I spent some time researching and designing a
-            solution before beginning development. I used JavaScript and
+            system for drivers that work for EcoTank Canada. Like the role-based
+            access control feature, I spent some time researching and designing
+            a solution before beginning development. I used JavaScript and
             Firebase to integrate ECRA with an external vehicle tracking API
             webhook. This allows ECRA to obtain a constant stream of information
             about the status of vehicles. After retrieving data from the
@@ -243,14 +246,13 @@ const WorkTermThree = () => {
             advice on the direction of the product, particularly concerning
             software design. I had many discussions about the design of the
             role-based access control system I implemented and other features,
-            such as adding multi-tenancy to the application. While our
-            discussions have been productive, we have had respectful debates
-            about the specific coding principles and design decisions. These
-            discussions have pushed me to articulate my opinions clearly while
-            considering perspectives on alternative designs. I have also been
-            practicing my public speaking skills in some extracurriculars this
-            summer, which has helped me express my views confidently and
-            concisely.
+            such as adding multi-tenancy to the application. We've also had
+            respectful disagreements at times about the use of specific coding
+            principles and design decisions. These discussions have pushed me to
+            articulate my opinions clearly while considering perspectives on
+            alternative designs. I have also been practicing my public speaking
+            skills in some extracurriculars this summer, which has helped me
+            express my views confidently and concisely.
           </p>
           <h5>
             Learning Goal #3: Become a more patient and resilient software
@@ -276,16 +278,16 @@ const WorkTermThree = () => {
             In comparison to my last internship, I can now speak more
             confidently than before. I have improved by taking deliberate pauses
             to gather my thoughts before speaking, as well as participating
-            heavily in a public speaking extracurricular, named “Toastmasters”,
-            over the summer. Toastmasters has had an impact on my public
-            speaking skills, allowing me to try out different speaking
-            techniques in a supportive environment that has constructive
-            criticism and evaluations. The constructive criticism I have
-            received in Toastmasters has helped me refine some of my
-            shortcomings in public speaking, allowing me to speak more clearly
-            to my co-workers at EcoTank Canada. Speaking skills are key to most
-            professions including software development, so I'm proud of the
-            improvements I've made in this domain.
+            heavily in a public speaking extracurricular over the summer, named
+            “Toastmasters”. Toastmasters has had an impact on my public speaking
+            skills, allowing me to try out different speaking techniques in a
+            supportive environment that has constructive criticism and
+            evaluations. The constructive criticism I have received in
+            Toastmasters has helped me refine some of my shortcomings in public
+            speaking, allowing me to speak more clearly to my co-workers at
+            EcoTank Canada. Speaking skills are key to most professions
+            including software development, so I'm proud of the improvements
+            I've made in this domain.
           </p>
           <h5>
             Learning Goal #5: Gain a deeper understanding of how businesses
@@ -296,25 +298,29 @@ const WorkTermThree = () => {
             of EcoTank Canada, but I did want to pick up some business skills if
             I ever want to create a business. In my two internships, I have
             learned different managerial strategies when it comes to managing a
-            smaller company in comparison to a team in a large corporation. In a
-            corporation such as NCR Voyix, engineering managers are less
-            involved in the overall business and sales decisions of the company.
-            As a result, they focus more on improving the productivity of
-            engineering teams and less on over-arching business priorities. At
-            EcoTank Canada, Robbie Mair, the CEO, needed to be focused on a
-            wider variety of priorities since he runs the whole company, not a
-            segment of one. This includes sales, software development, customer
-            satisfaction and quality control of dispensers. Comparing and
-            contrasting the managerial styles needed to run different businesses
-            has broadened my understanding of managerial skills. I also have
-            learned about the importance of applying for different government
-            grants and subsidies, as they can have an enormous impact on a
-            smaller company's ability to expand, given that smaller companies
-            are not as wealthy as large corporations. Additionally, I have
-            learned about the importance of building strong relationships with
-            clients to maintain customer loyalty. While most of these lessons
-            are not necessarily relevant to software development positions, they
-            will be very useful if I ever want to create a business.
+            smaller company in comparison to a few teams in a large corporation.
+            In a corporation such as NCR Voyix, engineering managers and team
+            leads are less involved in the overall business and sales decisions
+            of the company. As a result, they focus more on improving the
+            productivity of engineering teams and less on over-arching business
+            priorities. At EcoTank Canada, Robbie Mair, the CEO, needed to be
+            focused on a wider variety of priorities since he runs the whole
+            company, not a segment of one. This includes sales, software
+            development, customer satisfaction and quality control of
+            dispensers. Comparing and contrasting the managerial styles needed
+            to run different businesses has broadened my understanding of
+            managerial skills.
+          </p>
+          <p>
+            I also have learned about the importance of applying for different
+            government grants and subsidies, as they can have an enormous impact
+            on a smaller company's ability to expand, given that smaller
+            companies are not as wealthy as large corporations. Additionally, I
+            have learned about the importance of building strong relationships
+            with clients to maintain customer loyalty. While most of these
+            lessons are not necessarily relevant to software development
+            positions, they will be very useful if I ever want to create a
+            business.
           </p>
         </div>
       </div>
@@ -354,10 +360,10 @@ const WorkTermThree = () => {
         <img
           src={isaiahSinclairEcoTankCanadaNewOffice}
           className="singular-image mx-auto d-block my-2"
-          alt="Isaiah in Front of the New EcoTank Canada Office Under Construction"
+          alt="Isaiah in Front of the new EcoTank Canada Office Under Construction"
         />
         <figcaption className="figure-caption">
-          Isaiah in front of the New EcoTank Canada office that is under
+          Isaiah in front of the new EcoTank Canada office that is under
           construction.
         </figcaption>
       </figure>
