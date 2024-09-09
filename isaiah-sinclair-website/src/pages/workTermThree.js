@@ -1,28 +1,31 @@
 import React from "react";
 import "../work-term.css";
-import f23NCRCoops from "../assets/workTermReport2Images/f23NCRCoops.jpg";
-import isaiahSinclairNCROffice1 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_1.jpg";
-import isaiahSinclairNCROffice2 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_2.jpg";
-import ncrVoyixLogo from "../assets/workTermReport3Images/ecoTankLogo.jpg";
+import isaiahSinclairDispenser from "../assets/workTermReport3Images/inFrontOfEcoTankDispenserCropped.jpg";
+import isaiahSinclairEcoTankCanadaNewOffice from "../assets/workTermReport3Images/newOffice.jpg";
+import companyLogo from "../assets/workTermReport3Images/ecoTankLogo.jpg";
+import ecraHome from "../assets/workTermReport3Images/ecraHome.png";
+import rolesModal from "../assets/workTermReport3Images/rolesModal.png";
+import rolesUserManagement from "../assets/workTermReport3Images/rolesUserManagement.png";
+import driverLogs from "../assets/workTermReport3Images/driverLogs.png";
 
 const WorkTermThree = () => {
   return (
     <div className="container-fluid work-term-report-text">
       <img
-        src={isaiahSinclairNCROffice1}
+        src={isaiahSinclairDispenser}
         className="singular-image mx-auto d-block my-2"
         alt="Isaiah in Front of the NCR Voyix Waterloo Office"
       />
       <div>
         This May, I began working as a Software Developer Co-op at EcoTank
         Canada, excited to help reduce plastic waste one jug at a time. I will
-        reflect on my experience over the past 4 months: specifically, what I’ve
-        worked on, what I’ve learned, and what I will improve on in the future
+        reflect on my experience over the past 4 months: specifically, what I've
+        worked on, what I've learned, and what I will improve on in the future
         to become a better software developer.
       </div>
       <div>
         <img
-          src={ncrVoyixLogo}
+          src={companyLogo}
           className="mx-auto d-block my-2 singular-image"
           alt="NCR Voyix Logo"
         />
@@ -47,7 +50,7 @@ const WorkTermThree = () => {
         <p>
           While EcoTank Canada already has hundreds of dispensers across Canada
           at different gas stations, from Couche-Tard to Petro Canada, it is
-          still a relatively small company. I am the first co-op student they’ve
+          still a relatively small company. I am the first co-op student they've
           ever hired, and there are less than 20 employees who work for the
           company. They currently have dispensers in Ontario, Quebec, and
           Atlantic Canada. However, they plan to have dispensers across Canada
@@ -73,7 +76,7 @@ const WorkTermThree = () => {
             <strong>Other Skills: </strong>Teamwork, Software Design
           </h6>
           <p>
-            Throughout my work term, I worked on EcoTank Canada’s custom-built
+            Throughout my work term, I worked on EcoTank Canada's custom-built
             inventory management system, ECRA. My supervisor, Sean, designed and
             developed the application himself, so I am the second person to ever
             work on it. As a result of the small size of our team, I was tasked
@@ -87,6 +90,11 @@ const WorkTermThree = () => {
             CSS to style components from an external UI library. This made ECRA
             visually consistent across the application.
           </p>
+          <img
+            src={ecraHome}
+            className="singular-image mx-auto d-block my-2"
+            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
+          />
           <p>
             As I learned more about the overall structure of the application, my
             supervisor entrusted me with more complex tasks that improved the
@@ -127,6 +135,16 @@ const WorkTermThree = () => {
             Applications), strengthening my knowledge of software engineering
             principles.
           </p>
+          <img
+            src={rolesModal}
+            className="singular-image mx-auto d-block my-2"
+            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
+          />
+          <img
+            src={rolesUserManagement}
+            className="singular-image mx-auto d-block my-2"
+            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
+          />
           <p>
             For the remainder of the semester, I worked on a variety of
             different features, big and small. In my last month as a co-op
@@ -141,9 +159,14 @@ const WorkTermThree = () => {
             logs. To view the logs, I programmed a UI with Vue.js and
             JavaScript.
           </p>
+          <img
+            src={driverLogs}
+            className="singular-image mx-auto d-block my-2"
+            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
+          />
           <p>
             Working as a Software Developer at EcoTank Canada has been a great
-            learning experience. I’ve been able to implement wide-scale changes
+            learning experience. I've been able to implement wide-scale changes
             to ECRA, while programming features with technologies that I had no
             previous experience with. As a result, I have strengthened my
             problem-solving and software engineering skills. Additionally, I
@@ -154,11 +177,6 @@ const WorkTermThree = () => {
           </p>
         </div>
       </div>
-      <img
-        src={f23NCRCoops}
-        className="singular-image mx-auto d-block my-2"
-        alt="NCR Waterloo Fall 2023 Co-ops"
-      />
       <div>
         <h2>Work Term Goals</h2>
         <p>
@@ -180,7 +198,7 @@ const WorkTermThree = () => {
             system using a webhook that was integrated with an external API.
             Given my interest in pursuing a career in back-end development,
             these tasks and features have strengthened my experience in this
-            field. As a result, I’m more qualified for positions in back-end
+            field. As a result, I'm more qualified for positions in back-end
             development.
           </p>
           <h5>
@@ -206,10 +224,10 @@ const WorkTermThree = () => {
             developer.
           </h5>
           <p>
-            I’ve become a more resilient software developer, as I've learned a
+            I've become a more resilient software developer, as I've learned a
             wide variety of technologies in a short timeframe. I didn't know
             anything about Vue.js or Firebase until a few months ago, and now
-            I'm comfortable with both. I’ve done this by reading documentation,
+            I'm comfortable with both. I've done this by reading documentation,
             searching the web for help, building personal projects with these
             technologies and getting help from my supervisor when needed for
             work-related programming. However, my supervisor has indicated that
@@ -233,8 +251,8 @@ const WorkTermThree = () => {
             received in Toastmasters has helped me refine some of my
             shortcomings in public speaking, allowing me to speak more clearly
             to my co-workers at EcoTank Canada. Speaking skills are key to most
-            professions including software development, so I’m proud of the
-            improvements I’ve made in this domain.
+            professions including software development, so I'm proud of the
+            improvements I've made in this domain.
           </p>
           <h5>
             Learning Goal #5: Gain a deeper understanding of how businesses
@@ -271,13 +289,13 @@ const WorkTermThree = () => {
         <h2>Conclusion</h2>
         <p>
           At the start of the summer, I embarked on my journey with EcoTank
-          Canada, reducing plastic waste one jug at a time. Since then, I’ve
+          Canada, reducing plastic waste one jug at a time. Since then, I've
           implemented a variety of major software features, improving their
           inventory management software while levelling up my software
-          engineering skills. I’ve also learned a lot about what it takes to
-          build a business from the ground up – working here has given me
-          invaluable experience in startups and business. I’m proud of what
-          we’ve achieved over these past few months, and I’m excited to see what
+          engineering skills. I've also learned a lot about what it takes to
+          build a business from the ground up -- working here has given me
+          invaluable experience in startups and business. I'm proud of what
+          we've achieved over these past few months, and I'm excited to see what
           the future holds for EcoTank Canada. I will be working there part-time
           over the Fall 2024 semester, so I will continue to be a part of
           shaping that future.
@@ -287,20 +305,20 @@ const WorkTermThree = () => {
         <h2>Acknowledgments</h2>
         <p>
           I want to thank everyone at EcoTank Canada, for helping me have such a
-          successful co-op term. They’ve all been so kind and welcoming
-          throughout the period that I’ve worked here so far. Specifically, I
+          successful co-op term. They've all been so kind and welcoming
+          throughout the period that I've worked here so far. Specifically, I
           wanted to thank Sean, my supervisor, for always taking time out of his
           day to help me with issues that I encountered, being open-minded to
           suggestions, and being considerate about the difficulties that I faced
           during the onboarding process. I also wanted to thank Robbie, EcoTank
-          Canada’s CEO, for the praise and respect he had for the software that
+          Canada's CEO, for the praise and respect he had for the software that
           Sean and I have worked on. Lastly, I want to thank Victoria, for her
           constant support throughout my work term as well as for entrusting me
           to be the candidate that EcoTank Canada hired over the summer.
         </p>
       </div>
       <img
-        src={isaiahSinclairNCROffice2}
+        src={isaiahSinclairEcoTankCanadaNewOffice}
         className="singular-image mx-auto d-block my-2"
         alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
       />
