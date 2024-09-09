@@ -1,0 +1,17 @@
+.nav-bar-dropdown-control {
+    background-color: #052c03;
+    color: white;
+    display: block;
+    border: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-logo {
+    width: 2rem;
+    height: auto;
+}

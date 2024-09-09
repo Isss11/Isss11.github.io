@@ -1,0 +1,14 @@
+.goals-area {
+    background-color: rgb(227, 241, 223);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.attention-area {
+    color: darkred;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.embedded-video {
+    margin: 1rem;
+}

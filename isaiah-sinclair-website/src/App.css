@@ -39,17 +39,10 @@
 .header-link {
   text-decoration: none;
   color: white;
-  /* Possibly remove colouring if can do in BS5 */
 }
 
 .small-logo {
   max-width: 2%;
-  min-width: 2rem;
-  height: auto;
-}
-
-.nav-bar-logo {
-  width: 1.5%;
   min-width: 2rem;
   height: auto;
 }
@@ -103,6 +96,10 @@
 
 .small-image {
   width: 15%;
+}
+
+.figure-caption {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {

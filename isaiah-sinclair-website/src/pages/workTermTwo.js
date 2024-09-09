@@ -1,5 +1,5 @@
 import React from "react";
-import "../WorkTermOne.css";
+import "../work-term.css";
 import f23NCRCoops from "../assets/workTermReport2Images/f23NCRCoops.jpg";
 import isaiahSinclairNCROffice1 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_1.jpg";
 import isaiahSinclairNCROffice2 from "../assets/workTermReport2Images/isaiahSinclairNCRSign_2.jpg";

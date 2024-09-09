@@ -3,7 +3,7 @@ import ncrOffice1 from "../assets/workTermReport1Images/ncrOffice1.jpg";
 import ncrOffice2 from "../assets/workTermReport1Images/ncrOffice2.jpg";
 import s23NCRCoops from "../assets/workTermReport1Images/s23NCRCoops.jpg";
 import womenUsingNCRATM from "../assets/workTermReport1Images/womenUsingNCRATM.png";
-import "../WorkTermOne.css";
+import "../work-term.css";
 
 const WorkTermOne = () => {
   return (
