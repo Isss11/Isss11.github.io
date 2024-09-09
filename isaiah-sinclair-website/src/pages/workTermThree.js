@@ -34,7 +34,7 @@ const WorkTermThree = () => {
       <div>
         <img
           src={companyLogo}
-          className="mx-auto d-block my-2 singular-image"
+          className="singular-image mx-auto d-block my-2"
           alt="EcoTank Canada Logo"
         />
         <h2>About EcoTank Canada</h2>

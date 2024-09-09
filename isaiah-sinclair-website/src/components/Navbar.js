@@ -27,7 +27,7 @@ const Navbar = () => {
         setWorkTerm("");
       }
     },
-    [workTerm]
+    [workTerm, navigate]
   );
 
   return (
