@@ -47,11 +47,6 @@
   height: auto;
 }
 
-.nav-bar-logo {
-  width: 2rem;
-  height: auto;
-}
-
 .footer-logo {
   max-width: 2%;
   min-width: 2rem;
@@ -101,6 +96,10 @@
 
 .small-image {
   width: 15%;
+}
+
+.figure-caption {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {

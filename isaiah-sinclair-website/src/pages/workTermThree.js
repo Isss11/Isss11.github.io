@@ -1,5 +1,6 @@
 import React from "react";
 import "../work-term.css";
+import "../work-term-three.css";
 import isaiahSinclairDispenser from "../assets/workTermReport3Images/inFrontOfEcoTankDispenserCropped.jpg";
 import isaiahSinclairEcoTankCanadaNewOffice from "../assets/workTermReport3Images/newOffice.jpg";
 import companyLogo from "../assets/workTermReport3Images/ecoTankLogo.jpg";
@@ -11,11 +12,17 @@ import driverLogs from "../assets/workTermReport3Images/driverLogs.png";
 const WorkTermThree = () => {
   return (
     <div className="container-fluid work-term-report-text">
-      <img
-        src={isaiahSinclairDispenser}
-        className="singular-image mx-auto d-block my-2"
-        alt="Isaiah in Front of the NCR Voyix Waterloo Office"
-      />
+      <figure>
+        <img
+          src={isaiahSinclairDispenser}
+          className="mx-auto d-block my-2"
+          id="ecotank-dispenser-image"
+          alt="Isaiah in Front of an EcoTank"
+        />
+        <figcaption className="figure-caption">
+          Isaiah in front of an EcoTank
+        </figcaption>
+      </figure>
       <div>
         This May, I began working as a Software Developer Co-op at EcoTank
         Canada, excited to help reduce plastic waste one jug at a time. I will
@@ -27,7 +34,7 @@ const WorkTermThree = () => {
         <img
           src={companyLogo}
           className="mx-auto d-block my-2 singular-image"
-          alt="NCR Voyix Logo"
+          alt="EcoTank Canada Logo"
         />
         <h2>About EcoTank Canada</h2>
         <p>
@@ -90,11 +97,23 @@ const WorkTermThree = () => {
             CSS to style components from an external UI library. This made ECRA
             visually consistent across the application.
           </p>
-          <img
-            src={ecraHome}
-            className="singular-image mx-auto d-block my-2"
-            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
-          />
+          <div className="attention-area">
+            <strong>
+              Please note that all photos of ECRA were taken and published with
+              the permission of EcoTank Canada.
+            </strong>
+          </div>
+
+          <figure>
+            <img
+              src={ecraHome}
+              className="singular-image mx-auto d-block my-2"
+              alt="Home Page of ECRA"
+            />
+            <figcaption className="figure-caption">
+              Home page of ECRA
+            </figcaption>
+          </figure>
           <p>
             As I learned more about the overall structure of the application, my
             supervisor entrusted me with more complex tasks that improved the
@@ -135,16 +154,25 @@ const WorkTermThree = () => {
             Applications), strengthening my knowledge of software engineering
             principles.
           </p>
-          <img
-            src={rolesModal}
-            className="singular-image mx-auto d-block my-2"
-            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
-          />
-          <img
-            src={rolesUserManagement}
-            className="singular-image mx-auto d-block my-2"
-            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
-          />
+          <figure>
+            <div className="d-flex align-items-center justify-content-center">
+              <img
+                src={rolesModal}
+                className="mx-auto my-2 dual-images"
+                alt="Roles Modal"
+              />
+              <img
+                src={rolesUserManagement}
+                className="mx-auto my-2 dual-images"
+                alt="Selecting roles for a user"
+              />
+            </div>
+            <figcaption className="figure-caption">
+              A user can create or edit a role using the roles modal (left) and
+              can add roles to specific users with the user management modal
+              (right).
+            </figcaption>
+          </figure>
           <p>
             For the remainder of the semester, I worked on a variety of
             different features, big and small. In my last month as a co-op
@@ -159,11 +187,16 @@ const WorkTermThree = () => {
             logs. To view the logs, I programmed a UI with Vue.js and
             JavaScript.
           </p>
-          <img
-            src={driverLogs}
-            className="singular-image mx-auto d-block my-2"
-            alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
-          />
+          <figure>
+            <img
+              src={driverLogs}
+              className="singular-image mx-auto d-block my-2"
+              alt="An example of the driver logs feature"
+            />
+            <figcaption className="figure-caption">
+              An example of the driver logging feature.
+            </figcaption>
+          </figure>
           <p>
             Working as a Software Developer at EcoTank Canada has been a great
             learning experience. I've been able to implement wide-scale changes
@@ -317,11 +350,17 @@ const WorkTermThree = () => {
           to be the candidate that EcoTank Canada hired over the summer.
         </p>
       </div>
-      <img
-        src={isaiahSinclairEcoTankCanadaNewOffice}
-        className="singular-image mx-auto d-block my-2"
-        alt="Isaiah in Front of the NCR Voyix Waterloo Office (Upwards Angle)"
-      />
+      <figure>
+        <img
+          src={isaiahSinclairEcoTankCanadaNewOffice}
+          className="singular-image mx-auto d-block my-2"
+          alt="Isaiah in Front of the New EcoTank Canada Office Under Construction"
+        />
+        <figcaption className="figure-caption">
+          Isaiah in front of the New EcoTank Canada office that is under
+          construction.
+        </figcaption>
+      </figure>
     </div>
   );
 };
