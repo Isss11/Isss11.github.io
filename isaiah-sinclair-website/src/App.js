@@ -1,13 +1,13 @@
-import React from "react";
-import "./App.css";
-import Header from "./components/Header.js";
-import { Routes, Route, HashRouter } from "react-router-dom";
-import Home from "./pages/index";
-import Resume from "./pages/resume";
-import WorkTermOne from "./pages/workTermOne";
-import WorkTermTwo from "./pages/workTermTwo";
-import WorkTermThree from "./pages/workTermThree";
-import Footer from "./components/Footer";
+import React from 'react';
+import './App.css';
+import Header from './components/Header.js';
+import { Routes, Route, HashRouter } from 'react-router-dom';
+import Home from './pages/index';
+import Resume from './pages/resume';
+import WorkTermOne from './pages/workTermOne';
+import WorkTermTwo from './pages/workTermTwo';
+import WorkTermThree from './pages/workTermThree';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
     <HashRouter>
       <Header />
       <Routes>
-        {/* Empty path should map to initial search of isaiahsinclair.ca */}
         <Route exact path="" element={<Home />} />
         <Route exact path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />
