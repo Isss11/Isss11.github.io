@@ -19,10 +19,10 @@ const WorkTermFour = () => {
         </figcaption>
       </figure>
       <div>
-        At the start of the year, I began working at CPP Investments (CPPIB) as
-        a Data Engineer Intern. I will reflect on my experience, what I worked
-        on, what I've learned, and how I improved as an engineer throughout the
-        work term.
+        At the start of the year, I began working at CPP Investments as a Data
+        Engineer Intern. I will reflect on my experience, what I worked on, what
+        I've learned, and how I improved as an engineer throughout the work
+        term.
       </div>
       <div>
         <h2>About CPP Investments</h2>
@@ -64,11 +64,12 @@ const WorkTermFour = () => {
         <h2>My Experience</h2>
         <div className="mx-2">
           <h6 className="goals-area p-1 rounded">
-            <strong>Languages: </strong>Python, Terraform, SQL
+            <strong>Languages/Technologies: </strong>Python, Terraform, SQL,
+            Git, AWS (Athena, Glue, API Gateway, S3, RDS)
           </h6>
           <h6 className="goals-area p-1 rounded">
-            <strong>Other Skills: </strong>Git, Apache Iceberg, Data Lake, AWS
-            (Athena, Glue, API Gateway, S3, RDS), API Development
+            <strong>Other Skills: </strong>Apache Iceberg, Data Lakes, API
+            Development
           </h6>
 
           <p>
@@ -85,28 +86,24 @@ const WorkTermFour = () => {
             and more time building applications that use our data tools.
           </p>
           <p>
-            In February, our team shifted its priorities establishing a Data
+            In February, our team shifted its priorities to establishing a Data
             Platform as a Service (DPaaS). When completed, this would make our
             ecosystem more user-friendly while providing a granular level of
-            configurability for internal services.
+            configurability for internal services. To enable the launch of the
+            DPaaS, I was tasked with a large project that consisted of creating
+            SQL tables that stored internal service configurations. I also
+            created organizational tables that stored important information
+            teams and users. I then built APIs on top of these tables, allowing
+            users to access, create, update and delete resources associated with
+            these tables. Lastly, I automated the deployment of the APIs to AWS
+            API Gateway with Terraform.
           </p>
           <p>
-            To enable the launch of the DPaaS, I was tasked with a large project
-            that consisted of creating SQL tables that stored internal service
-            configurations. I also created organizational tables that stored
-            important information such as what teams' users are a part of. I
-            then built APIs on top of these tables, allowing users to access and
-            create resources within the tables that I created. Lastly, I
-            automated the deployment of the APIs to AWS API Gateway with
-            infrastructure as code, specifically using Terraform to accomplish
-            this task.
-          </p>
-          <p>
-            By the end of the term, I had built the implementations for 48
-            endpoints on top of 12 tables, tripling the number of endpoints
-            within the service that I worked on. I also enhanced the
-            functionality of these endpoints, such as implementing a feature to
-            dynamically create configuration files.
+            By the end of the term, I implemented 48 endpoints on top of 12
+            tables, tripling the number of endpoints within the service that I
+            worked on. I also enhanced the functionality of these endpoints,
+            such as implementing a feature to dynamically create configuration
+            files.
           </p>
           <p>
             This term project provided me with an ample amount of experience in
@@ -121,11 +118,11 @@ const WorkTermFour = () => {
             large applications and learning new technologies.
           </p>
           <p>
-            In addition to my term project, I worked on a variety of other
-            programming tasks. These ranged from fixing bugs related to email
-            notifications not triggering when they were expected to, automating
-            the deployment of AWS Glue jobs with Terraform, and creating Iceberg
-            versions of Hive tables, enabling faster query times.
+            In addition to my term project, I worked on a many other programming
+            tasks. These ranged from fixing bugs related to email notifications
+            not triggering when they were expected to, automating the deployment
+            of AWS Glue jobs with Terraform, and creating Iceberg versions of
+            Hive tables, enabling faster query times.
           </p>
           <p>
             Working on the Data Foundation team at CPPIB has been a great
@@ -193,13 +190,12 @@ const WorkTermFour = () => {
             I directly worked with databases in many of the tasks that I worked
             on this term. As a result, I have accomplished this goal. I worked
             on tasks such as converting Apache Hive tables to Apache Iceberg,
-            where I learned about the intricacies of why Apache Iceberg allows
-            for enhanced flexibility and faster query times. Additionally, I
-            created 12 different tables in my internship project, linking the
-            tables together with a variety of different foreign-key
-            relationships. I haven't built a project of this magnitude with
-            databases in the past, so this strengthened my understanding of
-            database design.
+            where I learned why Apache Iceberg allows for enhanced flexibility
+            and faster query times. Additionally, I created 12 different tables
+            in my internship project, linking the tables together with a variety
+            of different foreign-key relationships. I haven't built a project of
+            this magnitude with databases in the past, so this strengthened my
+            understanding of database design.
           </p>
           <h5>
             Learning Goal #4: I want to learn more about the overall software
@@ -208,13 +204,13 @@ const WorkTermFour = () => {
             applications.
           </h5>
           <p>
-            I have been given ample opportunities to learn about software
-            architecture on the Data Foundation team. In my first week, my
-            mentor introduced me to the way different services within our
-            architecture interact to create datasets and views. Additionally, I
-            often discussed a database design my mentor created to better
-            understand my term project's requirements. These discussions helped
-            me understand how to create a complex database architecture that
+            I have taken many opportunities to learn about software architecture
+            on the Data Foundation team. In my first week, my mentor introduced
+            me to the way different services within our architecture interact to
+            create datasets and views. Additionally, I often discussed the
+            database design my mentor created for my term project to better
+            understand my project's requirements. These discussions helped me
+            understand how to create a complex database architecture that
             addresses a large technical problem.
           </p>
           <h5>
@@ -229,7 +225,8 @@ const WorkTermFour = () => {
             knowledge in my internship sooner. Additionally, I worked a lot with
             Terraform for a variety of bug fixes, alongside automating the
             deployment of APIs for the internship project I worked on throughout
-            the semester. Overall, I'm more comfortable with these technologies.
+            the semester. Overall, I've become quite comfortable with these
+            technologies.
           </p>
         </div>
       </div>
@@ -248,13 +245,13 @@ const WorkTermFour = () => {
         <h2>Acknowledgments</h2>
         <p>
           I want to thank everyone on my team, Data Foundation, for always being
-          willing to help mentor me when needed, despite often being busy with
-          their work. I learned a lot from everyone I've worked with. I also
-          want to give a special thanks to my mentor, Kambiz, for making time to
-          teach me about best practices in data engineering. Lastly, I would
-          like to thank my manager, Sandip, for entrusting me to work on the
-          Data Foundation team this semester, allowing me to work on complex
-          problems that were challenging to solve.
+          willing to help mentor me when needed, even when being busy with their
+          own work. I learned a lot from everyone I've worked with. I also want
+          to give a special thanks to my mentor, Kambiz, for teaching me about
+          best practices in data engineering. Lastly, I would like to thank my
+          manager, Sandip, for entrusting me to work on the Data Foundation team
+          this semester, allowing me to work on complex problems that were
+          challenging to solve.
         </p>
       </div>
       <figure>
