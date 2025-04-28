@@ -1,14 +1,29 @@
 import React from 'react';
 import '../work-term.css';
+import companyLogo from '../assets/workTermReport4Images/cppInvestmentsLogo.png';
+import internTeamSocial from '../assets/workTermReport4Images/internTeamSocial.JPG';
+import isaiahSinclairInFrontOfLogo from '../assets/workTermReport4Images/isaiahSinclairCPPIBLogo.jpg';
+import isaiahSinclairInternBowlingSocial from '../assets/workTermReport4Images/isaiahInternBowlingSocial.jpeg';
+import cppibTimelineDiagram from '../assets/workTermReport4Images/cppibTimelineDiagram.png';
 
 const WorkTermFour = () => {
   return (
     <div className="container-fluid work-term-report-text">
+      <figure>
+        <img
+          src={isaiahSinclairInFrontOfLogo}
+          className="singular-image mx-auto d-block my-2"
+          alt="Isaiah in front of CPPIB's logo, at the Toronto HQ."
+        />
+        <figcaption className="figure-caption">
+          Isaiah in front of CPPIB's logo, at the Toronto HQ.
+        </figcaption>
+      </figure>
       <div>
-        At the start of the year, I began working at CPP Investments as a Data
-        Engineer Intern. I will reflect on my experience, what I worked on, what
-        I've learned, and how I improved as an engineer throughout the work
-        term.
+        At the start of the year, I began working at CPP Investments (CPPIB) as
+        a Data Engineer Intern. I will reflect on my experience, what I worked
+        on, what I've learned, and how I improved as an engineer throughout the
+        work term.
       </div>
       <div>
         <h2>About CPP Investments</h2>
@@ -35,6 +50,16 @@ const WorkTermFour = () => {
           engineers to work on internal applications that help investors make
           decisions.
         </p>
+        <figure>
+          <img
+            src={cppibTimelineDiagram}
+            className="singular-image mx-auto d-block my-2"
+            alt="A timeline of CPP Investments."
+          />
+          <figcaption className="figure-caption">
+            A timeline of CPP Investments.
+          </figcaption>
+        </figure>
       </div>
       <div>
         <h2>My Experience</h2>
@@ -46,8 +71,9 @@ const WorkTermFour = () => {
             <strong>Other Skills: </strong>Git, Apache Iceberg, Data Lake, AWS
             (Athena, Glue, API Gateway, S3, RDS), API Development
           </h6>
+
           <p>
-            his work term, I worked on the Data Foundation team, which
+            This work term, I worked on the Data Foundation team, which
             specializes in data engineering. We develop the foundation of many
             of the data products used at CPPIB. The main product that we provide
             is an ecosystem that provides frameworks, processes, tools and
@@ -111,6 +137,16 @@ const WorkTermFour = () => {
             problem-solving capabilities. I will continue to use these refined
             problem-solving skills to advance my career in software engineering.
           </p>
+          <figure>
+            <img
+              src={internTeamSocial}
+              className="singular-image mx-auto d-block my-2"
+              alt="An informal social that CPPIB interns set-up."
+            />
+            <figcaption className="figure-caption">
+              An informal social that CPPIB interns set-up.
+            </figcaption>
+          </figure>
         </div>
       </div>
       <div>
@@ -222,6 +258,16 @@ const WorkTermFour = () => {
           problems that were challenging to solve.
         </p>
       </div>
+      <figure>
+        <img
+          src={isaiahSinclairInternBowlingSocial}
+          className="singular-image mx-auto d-block my-2"
+          alt="Isaiah at an intern end-of-term bowling social."
+        />
+        <figcaption className="figure-caption">
+          Isaiah at an intern end-of-term bowling social.
+        </figcaption>
+      </figure>
     </div>
   );
 };
