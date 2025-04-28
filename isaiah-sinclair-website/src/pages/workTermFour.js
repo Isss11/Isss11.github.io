@@ -1,6 +1,5 @@
 import React from 'react';
 import '../work-term.css';
-import companyLogo from '../assets/workTermReport4Images/cppInvestmentsLogo.png';
 import internTeamSocial from '../assets/workTermReport4Images/internTeamSocial.JPG';
 import isaiahSinclairInFrontOfLogo from '../assets/workTermReport4Images/isaiahSinclairCPPIBLogo.jpg';
 import isaiahSinclairInternBowlingSocial from '../assets/workTermReport4Images/isaiahInternBowlingSocial.jpeg';
