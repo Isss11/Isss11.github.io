@@ -7,6 +7,7 @@ import Resume from './pages/resume';
 import WorkTermOne from './pages/workTermOne';
 import WorkTermTwo from './pages/workTermTwo';
 import WorkTermThree from './pages/workTermThree';
+import WorkTermFour from './pages/workTermFour.js';
 import Footer from './components/Footer';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/co-op/s23WorkTerm" element={<WorkTermOne />} />
         <Route path="/co-op/f23WorkTerm" element={<WorkTermTwo />} />
         <Route path="/co-op/s24WorkTerm" element={<WorkTermThree />} />
+        <Route path="/co-op/w25WorkTerm" element={<WorkTermFour />} />
       </Routes>
       <Footer />
     </HashRouter>
