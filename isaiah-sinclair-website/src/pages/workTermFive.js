@@ -37,31 +37,28 @@ const WorkTermFive = () => {
           As a result of this decision, the engineers decided that they wanted
           to continue the project, so they left the company to pursue this. In
           1972, they founded SAP (Systems, Applications and Products in Data
-          Processing).
+          Processing). Over the years, the company would expand, branching into
+          accounting and ERP software, among many other technological domains.
+          They would eventually go public on the New York Stock Exchange (NYSE)
+          in 1998.
         </p>
         <p>
-          Over the years, the company would expand, branching into accounting
-          and ERP software, among many other technological domains. They would
-          eventually go public on the New York Stock Exchange (NYSE) in 1998.
-        </p>
-        <p>
-          In addition to SAP's famous ERP software suite, they have also
-          branched into cloud database software. They accomplished this partly
-          through the purchase of Sybase, an American software company that
-          owned Sybase SQLAnywhere, a proprietary relational database system.
-          Notably, this database was originally created by a Waterloo-based
-          startup, Watcom, which was purchased by Powersoft and later merged
-          with Sybase. As a result, SAP's Waterloo office focuses on database
-          technology.
+          In addition to SAP's famous ERP software suite, they have branched
+          into cloud database software. They accomplished this partly through
+          the purchase of Sybase, an American software company that owned Sybase
+          SQLAnywhere, a proprietary relational database system. Notably, this
+          database was originally created by a Waterloo-based startup, Watcom,
+          which was purchased by Powersoft and later merged with Sybase. As a
+          result, SAP's Waterloo office focuses on database technology.
         </p>
         <figure>
           <img
             src={sapDatabaseExplorer}
             className="singular-image mx-auto d-block my-2"
-            alt="SAP HANA Database Explorer Example"
+            alt="A screenshot of the SAP HANA Database explorer."
           />
           <figcaption className="figure-caption">
-            SAP HANA Database Explorer Example
+            A screenshot of the SAP HANA Database explorer.
           </figcaption>
         </figure>
         <p>
@@ -75,7 +72,7 @@ const WorkTermFive = () => {
           column-oriented, relational database management system created by SAP.
           Over the years, SAP has gradually integrated SAP HANA to its broader
           business suite, particularly through the creation of S/4HANA, which is
-          an ERP software that runs exclusively using the SAP HANA database.
+          an ERP software that runs exclusively with the SAP HANA database.
           SAP's Waterloo office works on the development and management of the
           SAP HANA database.
         </p>
@@ -105,23 +102,24 @@ const WorkTermFive = () => {
             development and IT operations, specifically focusing on ensuring
             that systems are:
           </p>
-          <p>
-            By the end of the term, I implemented 48 endpoints on top of 12
-            tables, tripling the number of endpoints within the service that I
-            worked on. I also enhanced the functionality of these endpoints,
-            such as implementing a feature to dynamically create configuration
-            files.
-          </p>
           <ol>
-            <li>Highly available: they don't go down often.</li>
-            <li>Performant: they run quickly.</li>
-            <li>Scalable: they can grow.</li>
-            <li>Observable: easy to monitor and troubleshoot.</li>
+            <li>
+              <strong>Highly available:</strong> they don't go down often.
+            </li>
+            <li>
+              <strong>Performant:</strong> they run quickly.
+            </li>
+            <li>
+              <strong>Scalable:</strong> they can grow.
+            </li>
+            <li>
+              <strong>Observable:</strong> easy to monitor and troubleshoot.
+            </li>
           </ol>
           <p>
             Most of the tasks that I was assigned related to at least one of
-            these goals - I worked on the monitoring services for the SAP HANA
-            database's cloud services.
+            these goals - I worked on the monitoring services for SAP HANA's
+            cloud services.
           </p>
           <p>
             At the beginning of the work term, I was assigned a variety of
@@ -129,7 +127,7 @@ const WorkTermFive = () => {
             alerting systems. Some of these tasks revolved around simplifying
             some of the logic within automated scripts that create Jira tickets
             for developers. I also learned the basics of Prometheus, Grafana,
-            and Kubernetes. I did not have previous experience with Helm,
+            Kubernetes and Helm. I did not have previous experience with Helm,
             Prometheus, or Grafana, so I learned this on my own by reading
             documentation online. I used these skills to create and deploy
             Prometheus alerts that query information about microservices and
@@ -143,14 +141,14 @@ const WorkTermFive = () => {
             <img
               src={isaiahWorking}
               className="singular-image mx-auto d-block my-2"
-              alt="Isaiah working in the SAP Waterloo office."
+              alt="Isaiah working in the SAP office."
             />
             <figcaption className="figure-caption">
-              Isaiah working in the SAP Waterloo office.
+              Isaiah working in the SAP office.
             </figcaption>
           </figure>
           <p>
-            In mid July, I was tasked with one large project that took me the
+            In mid-July, I was tasked with one large project that took me the
             remainder of the work term. Currently, many Jira tickets are
             automatically created when triggered by Prometheus alerts.
             Oftentimes, multiple alerts have the same root cause, and it is
@@ -165,22 +163,7 @@ const WorkTermFive = () => {
             my existing skills in GenAI APIs and Python programming.
           </p>
           <p>
-            In mid July, I was tasked with one large project that took me the
-            remainder of the work term. Currently, many Jira tickets are
-            automatically created when triggered by Prometheus alerts.
-            Oftentimes, multiple alerts have the same root cause, and it is
-            rather obvious to developers that the corresponding tickets should
-            be grouped together so that one developer can analyze the single
-            root cause for multiple tickets. I built an Agentic AI tool that
-            leverages LLMs to quickly analyze and compare the content of alert
-            tickets against others, and group them together leveraging the Jira
-            API. I haven't had experience building a large AI tool like this,
-            but I have previously used LLMs in hackathons as part of our
-            prototype application. Working on this project allowed me to refine
-            my existing skills in GenAI APIs and Python programming.
-          </p>
-          <p>
-            Working as a Site Reliability Engineering Intern at SAP has been a
+            Working as a Site Reliability Engineer Intern at SAP has been a
             great experience. I've been able to learn so much about another
             domain of software engineering. This has given me a different
             perspective on the complexities of building a scalable and
@@ -245,7 +228,7 @@ const WorkTermFive = () => {
             I think my productivity has improved as I've gained more experience,
             but also as I've adapted my approach to software development. In my
             first co-op, I was often nervous to take risks because I feared
-            making a mistake. Now I take calculated and responsible risks such
+            making a mistake. Now, I take calculated and responsible risks such
             that I exhaust all possible methods to solve a problem. This has
             allowed me to solve problems more easily on my own and enhance my
             programming productivity.
@@ -256,13 +239,12 @@ const WorkTermFive = () => {
           </h5>
           <p>
             I have gained experience with Grafana, Prometheus, and Helm. I
-            gained a little bit of experience with Docker, but not as much as
-            the other technologies. I implemented many dashboard features and
-            alerts using Grafana, Prometheus and Helm at the beginning of the
-            semester, which gave me sufficient experience in learning the basics
-            of these technologies. These skills will all be useful if I continue
-            to pursue a career in Site Reliability Engineering or back-end
-            engineering more broadly.
+            didn't work too much with Docker this work term. I implemented many
+            dashboard features and alerts using Grafana, Prometheus and Helm at
+            the beginning of the semester, which gave me sufficient experience
+            in learning the basics of these technologies. These skills will all
+            be useful if I continue to pursue a career in Site Reliability
+            Engineering or back-end engineering more broadly.
           </p>
           <h5>
             Learning Goal #5: Partake in opportunities to learn from colleagues.
@@ -273,8 +255,8 @@ const WorkTermFive = () => {
             sessions to present my own work and learn from others. I feel that I
             could've taken a little bit more initiative to learn from colleagues
             by occasionally asking them questions about their own work, so that
-            I could have a broader understanding of some of the work that our
-            team was working on.
+            I could learn more about some of the other tasks performed in this
+            role.
           </p>
         </div>
       </div>
@@ -294,15 +276,14 @@ const WorkTermFive = () => {
         <h2>Acknowledgments</h2>
         <p>
           I want to thank everyone on the HTCE team for helping me learn
-          throughout the work term and always bringing a positive attitude to
-          the workplace. It was nice to work with a team of kind people who
-          cared about each other's success. I want to give a special thanks to
-          my supervisor, Ken, for taking the initiative to onboard me so
-          quickly, answering all my questions thoroughly, and making sure that I
-          felt included in the team. Lastly, I would like to thank my team lead,
-          Bill, for encouraging me throughout the semester to work on more
-          complex software problems and always taking the time to recognize my
-          positive contributions to the team.
+          throughout the work term. It was nice to work with a team of kind
+          people who cared about each other's success. I want to give a special
+          thanks to my supervisor, Ken, for taking the initiative to onboard me
+          so quickly, answering all my questions thoroughly, and making sure
+          that I felt included in the team. Lastly, I would like to thank my
+          team lead, Bill, for encouraging me throughout the semester to work on
+          more complex software problems and always taking the time to recognize
+          my positive contributions to the team.
         </p>
       </div>
       <figure>
