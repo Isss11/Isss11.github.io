@@ -84,8 +84,9 @@ const WorkTermFive = () => {
             <strong>Languages: </strong>Python, SQL
           </h6>
           <h6 className="goals-area p-1 rounded">
-            <strong>Other Skills: </strong>Git, Kubernetes, Docker, Prometheus,
-            Grafana, Site Reliability Engineering, Agentic AI, Flask, Helm
+            <strong>Other Skills: </strong>Git, SAP HANA, Flask, Kubernetes,
+            Docker, Prometheus, Helm, Grafana, Site Reliability Engineering,
+            Agentic AI
           </h6>
 
           <p>
