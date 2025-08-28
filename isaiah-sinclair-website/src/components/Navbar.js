@@ -16,6 +16,7 @@ const Navbar = () => {
     { label: 'W23 (NCR Voyix)', value: '/co-op/f23WorkTerm' },
     { label: 'S24 (EcoTank Canada)', value: '/co-op/s24WorkTerm' },
     { label: 'W25 (CPP Investments)', value: 'co-op/w25WorkTerm' },
+    { label: 'S25 (SAP)', value: 'co-op/s25WorkTerm' },
   ];
 
   const [workTerm, setWorkTerm] = useState('');

@@ -8,6 +8,7 @@ import WorkTermOne from './pages/workTermOne';
 import WorkTermTwo from './pages/workTermTwo';
 import WorkTermThree from './pages/workTermThree';
 import WorkTermFour from './pages/workTermFour.js';
+import WorkTermFive from './pages/workTermFive.js';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/co-op/f23WorkTerm" element={<WorkTermTwo />} />
         <Route path="/co-op/s24WorkTerm" element={<WorkTermThree />} />
         <Route path="/co-op/w25WorkTerm" element={<WorkTermFour />} />
+        <Route path="/co-op/s25WorkTerm" element={<WorkTermFive />} />
       </Routes>
       <Footer />
     </HashRouter>
