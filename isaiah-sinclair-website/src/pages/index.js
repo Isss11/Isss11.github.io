@@ -8,7 +8,7 @@ const Home = () => {
         <h2 className="container-fluid">Hey! My name is Isaiah.</h2>
         <p className="container-fluid">
           I am a Computer Science student who has a passion for programming,
-          running and economics. I enjoy the process of learning and
+          marathon running and economics. I enjoy the process of learning and
           problem-solving, and have established a strong work ethic to achieve
           my goals.
         </p>
