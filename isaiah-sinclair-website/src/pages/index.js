@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import isaiahSinclairImage from "../assets/grtmpicnic.jpg";
 
@@ -14,12 +13,14 @@ const Home = () => {
             my goals.
           </p>
         </div>
-        <img
-          src={isaiahSinclairImage}
-          alt="Isaiah Sinclair"
-          className="img-fluid container-fluid rounded"
-        />
-        <em>Photo Credits: Randy Moore (<Link to="https://www.pv3photo.com/">PV3 Photo</Link>)</em>
+        <div className="home-image-container container-fluid">
+          <img
+            src={isaiahSinclairImage}
+            alt="Isaiah Sinclair"
+            className="home-image-responsive rounded"
+          />
+          <em>Photo Credits: Randy Moore (<Link to="https://www.pv3photo.com/">PV3 Photo</Link>)</em>
+        </div>
       </div>
   );
 };

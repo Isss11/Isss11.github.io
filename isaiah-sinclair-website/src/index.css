@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(assets/nature-sketch-background.png);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home-image-container {
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
+.home-image-responsive {
+  height: auto;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .home-image-responsive {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-image-responsive {
+    width: 40%;
+  }
 }
