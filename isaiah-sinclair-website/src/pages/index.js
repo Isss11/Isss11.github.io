@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import isaiahSinclairImage from "../assets/grtmpicnic.jpg";
+import isaiahSinclairImage from "../assets/isaiahnov2026.JPG";
 
 const Home = () => {
   return (
@@ -19,7 +18,7 @@ const Home = () => {
             alt="Isaiah Sinclair"
             className="home-image-responsive rounded"
           />
-          <em>Photo Credits: Randy Moore (<Link to="https://www.pv3photo.com/">PV3 Photo</Link>)</em>
+          <em>Photo Credits: Becky Chen</em>
         </div>
       </div>
   );
