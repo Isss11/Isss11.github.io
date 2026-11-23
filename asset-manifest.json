@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab325f3b.css",
-    "main.js": "/static/js/main.23bcf2f7.js",
+    "main.js": "/static/js/main.5ccd29ce.js",
     "static/js/787.30ca936e.chunk.js": "/static/js/787.30ca936e.chunk.js",
     "static/media/ncrOffice2.jpg": "/static/media/ncrOffice2.2aaa595958e3a3493fd0.jpg",
     "static/media/ncrOffice1.jpg": "/static/media/ncrOffice1.f49ad0b2e7831a77f968.jpg",
@@ -10,9 +10,9 @@
     "static/media/nature-sketch-background.png": "/static/media/nature-sketch-background.f7529f1545964d540f92.png",
     "static/media/isaiahWorking.jpg": "/static/media/isaiahWorking.83ec7bed50b6f92e39bf.jpg",
     "static/media/isaiahSinclairCPPIBLogo.jpg": "/static/media/isaiahSinclairCPPIBLogo.e3dd7d72d51b6004d9a3.jpg",
-    "static/media/grtmpicnic.jpg": "/static/media/grtmpicnic.660435e10b18495254f8.jpg",
     "static/media/internTeamSocial.JPG": "/static/media/internTeamSocial.e8fa292d853fe2569efc.JPG",
     "static/media/isaiahDrawing.jpg": "/static/media/isaiahDrawing.f292924d3d63401eb6fe.jpg",
+    "static/media/isaiahnov2026.JPG": "/static/media/isaiahnov2026.f94c6eb328dafbb3b7d4.JPG",
     "static/media/newOffice.jpg": "/static/media/newOffice.ce212ff2ca2f2d4d9c25.jpg",
     "static/media/inFrontOfEcoTankDispenserCropped.jpg": "/static/media/inFrontOfEcoTankDispenserCropped.9a1ae95abac36dea055b.jpg",
     "static/media/isaiahInternBowlingSocial.jpeg": "/static/media/isaiahInternBowlingSocial.e96c7331d03ad5ad3561.jpeg",
@@ -37,11 +37,11 @@
     "static/media/emailLogo.png": "/static/media/emailLogo.647bb52528e6a0ce522c.png",
     "index.html": "/index.html",
     "main.ab325f3b.css.map": "/static/css/main.ab325f3b.css.map",
-    "main.23bcf2f7.js.map": "/static/js/main.23bcf2f7.js.map",
+    "main.5ccd29ce.js.map": "/static/js/main.5ccd29ce.js.map",
     "787.30ca936e.chunk.js.map": "/static/js/787.30ca936e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab325f3b.css",
-    "static/js/main.23bcf2f7.js"
+    "static/js/main.5ccd29ce.js"
   ]
 }
